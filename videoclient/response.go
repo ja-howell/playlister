@@ -1,4 +1,4 @@
-package main
+package videoclient
 
 type Response struct {
 	NextPageToken string     `json:"nextPageToken,omitempty"`

@@ -5,17 +5,11 @@ import (
 	"fmt"
 	"io"
 	"os"
+
+	"github.com/ja-howell/playlister/models"
 )
 
-type Video struct {
-	Name        string `json:"name,omitempty"`
-	Url         string `json:"url,omitempty"`
-	Thumbnail   string `json:"thumbnail,omitempty"`
-	PublishedAt string `json:"published_at,omitempty"`
-	VideoLength string `json:"video_length,omitempty"`
-}
-
-type Database map[string][]Video
+type Database map[string][]models.Video
 
 func newDatabase(path string) (Database, error) {
 	f, err := os.Open(path)
