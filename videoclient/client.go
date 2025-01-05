@@ -18,12 +18,11 @@ func New(apiKey string) Client {
 	return Client{apiKey: apiKey}
 }
 
-func (c Client) GetResponse() (Response, error) {
-	return getResponse(c.apiKey)
-}
+//TODO GetVideosSince(date)
+//Get all the videos since the last collection date
 
-func getResponse(apiKey string) (Response, error) {
-	url := fmt.Sprintf("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UU3tNpTOHsTnkmbwztCs30sA&maxResults=10&key=%s&maxResults=50", apiKey)
+func (c Client) getResponse() (Response, error) {
+	url := fmt.Sprintf("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UU3tNpTOHsTnkmbwztCs30sA&maxResults=10&key=%s&maxResults=50", c.apiKey)
 	resp, err := http.Get(url)
 	if err != nil {
 		return Response{}, fmt.Errorf("failed to fetch endpoint: %w", err)
@@ -45,9 +44,9 @@ func getResponse(apiKey string) (Response, error) {
 	return response, nil
 }
 
-func getVideo(raw RawVideo, apiKey string) models.Video {
+func (c Client) getVideo(raw RawVideo) models.Video {
 	video := convertRawtoVideo(raw)
-	videoLength, err := getVideoLength(raw.Snippet.ResourceId.VideoId, apiKey)
+	videoLength, err := c.getVideoLength(raw.Snippet.ResourceId.VideoId)
 	if err != nil {
 		log.Printf("Failed to create video length: %v", err)
 	}
@@ -64,8 +63,8 @@ func convertRawtoVideo(raw RawVideo) models.Video {
 	}
 }
 
-func getVideoLength(videoId string, apiKey string) (string, error) {
-	url := fmt.Sprintf("https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=%s&key=%s", videoId, apiKey)
+func (c Client) getVideoLength(videoId string) (string, error) {
+	url := fmt.Sprintf("https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=%s&key=%s", videoId, c.apiKey)
 	resp, err := http.Get(url)
 	if err != nil {
 		return "", fmt.Errorf("failed to collect video length: %w", err)
@@ -79,14 +78,16 @@ func getVideoLength(videoId string, apiKey string) (string, error) {
 		return "", fmt.Errorf("failed to read body: %w", err)
 	}
 
-	// TODO: Unmarshal into an anonymous struct
-	// x := struct {
-	// 	foo string `json:"Foo"`
-	// }{}
+	x := struct {
+		Items []struct {
+			ContentDetails struct {
+				Duration string `json:"duration,omitempty"`
+			} `json:"contentDetails,omitempty"`
+		} `json:"items,omitempty"`
+	}{}
 
-	_ = body
-	// json.Unmarshal(body, &x)
+	json.Unmarshal(body, &x)
 
-	return "", nil
+	return x.Items[0].ContentDetails.Duration, nil
 
 }

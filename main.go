@@ -25,10 +25,6 @@ func run() error {
 		return fmt.Errorf("failed to get API Key: %w", err)
 	}
 	client := videoclient.New(apiKey)
-	resp, err := client.GetResponse()
-	if err != nil {
-		return fmt.Errorf("failed to get a response: %w", err)
-	}
 
 	config, err := newConfig("config.json")
 	if err != nil {
@@ -40,9 +36,7 @@ func run() error {
 	// 	return fmt.Errorf("failed to create database: %w", err)
 	// }
 
-	fmt.Println(resp)
-
-	_ = resp
+	_ = client
 	_ = config
 	// _ = database
 	return nil
