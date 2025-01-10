@@ -6,6 +6,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"strings"
 
 	"github.com/ja-howell/playlister/models"
 )
@@ -88,6 +89,30 @@ func (c Client) getVideoLength(videoId string) (string, error) {
 
 	json.Unmarshal(body, &x)
 
-	return x.Items[0].ContentDetails.Duration, nil
+	rawLength := x.Items[0].ContentDetails.Duration
+
+	length := formatLength(rawLength)
+
+	return length, nil
+}
+
+func formatLength(raw string) string {
+	//PT#H#M#S
+	//h:m:s
+	s := strings.TrimPrefix(raw, "PT")
+	h, s, found := strings.Cut(s, "H")
+	if found {
+		h = h + ":"
+	} else {
+		s = h
+		h = ""
+	}
+	m, s, found := strings.Cut(s, "M")
+	if !found {
+		m = "0"
+		s = m
+	}
+	sec, _, _ := strings.Cut(s, "S")
+	return fmt.Sprintf("%s%s:%s", h, m, sec)
 
 }
