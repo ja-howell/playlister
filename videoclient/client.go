@@ -78,8 +78,9 @@ func (c Client) GetVideoLength(videoId string) (string, error) {
 }
 
 func formatLength(raw string) string {
-	//PT#H#M#S
-	//h:m:s
+	// PT#H#M#S
+	// h:m:s
+	// FIXME
 	s := strings.TrimPrefix(raw, "PT")
 	h, s, found := strings.Cut(s, "H")
 	if found {

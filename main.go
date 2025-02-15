@@ -94,9 +94,9 @@ func GetVideosSince(c videoclient.Client, lastCollectionDate string) ([]models.V
 	return videos, nil
 }
 
-func getVideo(c videoclient.Client, raw videoclient.Snippet) models.Video {
-	video := convertRawtoVideo(raw)
-	videoLength, err := c.GetVideoLength(raw.ResourceId.VideoId)
+func getVideo(c videoclient.Client, snippet videoclient.Snippet) models.Video {
+	video := convertSnippettoVideo(snippet)
+	videoLength, err := c.GetVideoLength(snippet.ResourceId.VideoId)
 	if err != nil {
 		log.Printf("Failed to create video length: %v", err)
 	}
@@ -104,11 +104,11 @@ func getVideo(c videoclient.Client, raw videoclient.Snippet) models.Video {
 	return video
 }
 
-func convertRawtoVideo(raw videoclient.Snippet) models.Video {
+func convertSnippettoVideo(snippet videoclient.Snippet) models.Video {
 	return models.Video{
-		Name:        raw.Title,
-		Url:         "https://www.youtube.com/watch?v=" + raw.ResourceId.VideoId,
-		Thumbnail:   raw.Thumbnails["standard"].Url,
-		PublishedAt: raw.PublishedAt,
+		Name:        snippet.Title,
+		Url:         "https://www.youtube.com/watch?v=" + snippet.ResourceId.VideoId,
+		Thumbnail:   snippet.Thumbnails["standard"].Url,
+		PublishedAt: snippet.PublishedAt,
 	}
 }
