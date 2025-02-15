@@ -4,26 +4,27 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
 	"net/http"
 	"strings"
-
-	"github.com/ja-howell/playlister/models"
 )
 
 type Client struct {
 	apiKey string
 }
 
+type PageToken string
+
+const FirstToken PageToken = ""
+
 func New(apiKey string) Client {
 	return Client{apiKey: apiKey}
 }
 
-//TODO GetVideosSince(date)
-//Get all the videos since the last collection date
-
-func (c Client) getResponse() (Response, error) {
+func (c Client) GetResponse(nextPageToken PageToken) (Response, error) {
 	url := fmt.Sprintf("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UU3tNpTOHsTnkmbwztCs30sA&maxResults=10&key=%s&maxResults=50", c.apiKey)
+	if nextPageToken != FirstToken {
+		url = fmt.Sprintf("%s&pageToken=%s", url, nextPageToken)
+	}
 	resp, err := http.Get(url)
 	if err != nil {
 		return Response{}, fmt.Errorf("failed to fetch endpoint: %w", err)
@@ -37,34 +38,15 @@ func (c Client) getResponse() (Response, error) {
 		return Response{}, fmt.Errorf("failed to read body: %w", err)
 	}
 	response := Response{}
-
 	err = json.Unmarshal(body, &response)
 	if err != nil {
 		return Response{}, fmt.Errorf("failed to unmarshal json: %w", err)
 	}
+
 	return response, nil
 }
 
-func (c Client) getVideo(raw RawVideo) models.Video {
-	video := convertRawtoVideo(raw)
-	videoLength, err := c.getVideoLength(raw.Snippet.ResourceId.VideoId)
-	if err != nil {
-		log.Printf("Failed to create video length: %v", err)
-	}
-	video.VideoLength = videoLength
-	return video
-}
-
-func convertRawtoVideo(raw RawVideo) models.Video {
-	return models.Video{
-		Name:        raw.Snippet.Title,
-		Url:         "https://www.youtube.com/watch?v=" + raw.Snippet.ResourceId.VideoId,
-		Thumbnail:   raw.Snippet.Thumbnails["standard"].Url,
-		PublishedAt: raw.Snippet.PublishedAt,
-	}
-}
-
-func (c Client) getVideoLength(videoId string) (string, error) {
+func (c Client) GetVideoLength(videoId string) (string, error) {
 	url := fmt.Sprintf("https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=%s&key=%s", videoId, c.apiKey)
 	resp, err := http.Get(url)
 	if err != nil {
@@ -78,7 +60,6 @@ func (c Client) getVideoLength(videoId string) (string, error) {
 	if err != nil {
 		return "", fmt.Errorf("failed to read body: %w", err)
 	}
-
 	x := struct {
 		Items []struct {
 			ContentDetails struct {

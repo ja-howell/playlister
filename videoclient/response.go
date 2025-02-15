@@ -1,11 +1,11 @@
 package videoclient
 
 type Response struct {
-	NextPageToken string     `json:"nextPageToken,omitempty"`
-	Items         []RawVideo `json:"items,omitempty"`
+	NextPageToken string `json:"nextPageToken,omitempty"`
+	Items         []Item `json:"items,omitempty"`
 }
 
-type RawVideo struct {
+type Item struct {
 	Snippet Snippet `json:"snippet,omitempty"`
 }
 

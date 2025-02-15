@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/ja-howell/playlister/models"
 	"github.com/ja-howell/playlister/videoclient"
 )
 
@@ -35,9 +36,16 @@ func run() error {
 	// if err != nil {
 	// 	return fmt.Errorf("failed to create database: %w", err)
 	// }
+	videos, err := GetVideosSince(client, config.LastCollectionDate)
+	if err != nil {
+		return fmt.Errorf("failed to get response: %w", err)
+	}
 
-	_ = client
-	_ = config
+	for _, video := range videos {
+		fmt.Printf("Length: %v     Name: %v\n", video.VideoLength, video.Name)
+	}
+	fmt.Println(len(videos))
+
 	// _ = database
 	return nil
 }
@@ -56,4 +64,51 @@ func getAPIKey() (string, error) {
 	}
 
 	return string(apiKey), nil
+}
+
+// TODO GetVideosSince(date)
+// Get all the videos since the last collection date
+func GetVideosSince(c videoclient.Client, lastCollectionDate string) ([]models.Video, error) {
+	videos := []models.Video{}
+
+	next := videoclient.FirstToken
+
+	//process the videos
+	done := false
+	for !done {
+		response, err := c.GetResponse(next)
+		if err != nil {
+			return []models.Video{}, fmt.Errorf("failed to retrieve videos: %w", err)
+		}
+		for _, item := range response.Items {
+			snippet := item.Snippet
+			if snippet.PublishedAt < lastCollectionDate {
+				done = true
+				break
+			}
+			videos = append(videos, getVideo(c, snippet))
+		}
+		next = videoclient.PageToken(response.NextPageToken)
+	}
+
+	return videos, nil
+}
+
+func getVideo(c videoclient.Client, raw videoclient.Snippet) models.Video {
+	video := convertRawtoVideo(raw)
+	videoLength, err := c.GetVideoLength(raw.ResourceId.VideoId)
+	if err != nil {
+		log.Printf("Failed to create video length: %v", err)
+	}
+	video.VideoLength = videoLength
+	return video
+}
+
+func convertRawtoVideo(raw videoclient.Snippet) models.Video {
+	return models.Video{
+		Name:        raw.Title,
+		Url:         "https://www.youtube.com/watch?v=" + raw.ResourceId.VideoId,
+		Thumbnail:   raw.Thumbnails["standard"].Url,
+		PublishedAt: raw.PublishedAt,
+	}
 }
