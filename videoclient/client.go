@@ -72,6 +72,8 @@ func (c Client) GetVideoLength(videoId string) (string, error) {
 
 	rawLength := x.Items[0].ContentDetails.Duration
 
+	fmt.Printf("Raw Length: %v\n", rawLength)
+
 	length := formatLength(rawLength)
 
 	return length, nil
@@ -80,21 +82,40 @@ func (c Client) GetVideoLength(videoId string) (string, error) {
 func formatLength(raw string) string {
 	// PT#H#M#S
 	// h:m:s
-	// FIXME
+	output := ""
 	s := strings.TrimPrefix(raw, "PT")
-	h, s, found := strings.Cut(s, "H")
-	if found {
-		h = h + ":"
+
+	h, s, hasHour := strings.Cut(s, "H")
+	if hasHour {
+		output += h + ":"
 	} else {
 		s = h
-		h = ""
 	}
-	m, s, found := strings.Cut(s, "M")
-	if !found {
-		m = "0"
-		s = m
-	}
-	sec, _, _ := strings.Cut(s, "S")
-	return fmt.Sprintf("%s%s:%s", h, m, sec)
 
+	m, s, hasMinute := strings.Cut(s, "M")
+	if !hasMinute {
+		if hasHour {
+			output += "00:"
+		} else {
+			output += "0:"
+		}
+		s = m
+	} else {
+		if hasHour && len(m) == 1 {
+			output += "0" + m + ":"
+		} else {
+			output += m + ":"
+		}
+	}
+
+	sec, _, _ := strings.Cut(s, "S")
+	if len(sec) == 1 {
+		output += "0" + sec
+	} else if len(sec) == 0 {
+		output += "00"
+	} else {
+		output += sec
+	}
+
+	return output
 }
