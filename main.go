@@ -12,6 +12,11 @@ import (
 
 const apiKeyFilepath = "API_KEY"
 
+type Client interface {
+	GetResponse(nextPageToken videoclient.PageToken) (videoclient.Response, error)
+	GetVideoLength(videoId string) (string, error)
+}
+
 func main() {
 	err := run()
 	if err != nil {
@@ -66,9 +71,8 @@ func getAPIKey() (string, error) {
 	return string(apiKey), nil
 }
 
-// TODO GetVideosSince(date)
 // Get all the videos since the last collection date
-func GetVideosSince(c videoclient.Client, lastCollectionDate string) ([]models.Video, error) {
+func GetVideosSince(c Client, lastCollectionDate string) ([]models.Video, error) {
 	videos := []models.Video{}
 
 	next := videoclient.FirstToken
@@ -94,7 +98,7 @@ func GetVideosSince(c videoclient.Client, lastCollectionDate string) ([]models.V
 	return videos, nil
 }
 
-func getVideo(c videoclient.Client, snippet videoclient.Snippet) models.Video {
+func getVideo(c Client, snippet videoclient.Snippet) models.Video {
 	video := convertSnippettoVideo(snippet)
 	videoLength, err := c.GetVideoLength(snippet.ResourceId.VideoId)
 	if err != nil {
