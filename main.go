@@ -105,6 +105,7 @@ func getVideo(c Client, snippet videoclient.Snippet) models.Video {
 		log.Printf("Failed to create video length: %v", err)
 	}
 	video.VideoLength = videoLength
+	video.Playlist, video.Name = parsePlaylistFromName(video.Name)
 	return video
 }
 
@@ -115,4 +116,16 @@ func convertSnippettoVideo(snippet videoclient.Snippet) models.Video {
 		Thumbnail:   snippet.Thumbnails["standard"].Url,
 		PublishedAt: snippet.PublishedAt,
 	}
+}
+
+func parsePlaylistFromName(rawName string) (playlist, name string) {
+	lastParen := strings.LastIndex(rawName, "(")
+	if lastParen == -1 {
+		return "[Missing]", rawName
+	}
+
+	name = strings.TrimSpace(rawName[:lastParen])
+	playlist = strings.TrimSpace(rawName[lastParen+1:])
+	playlist = playlist[:len(playlist)-1]
+	return playlist, name
 }
