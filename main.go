@@ -1,11 +1,13 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"log"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/ja-howell/playlister/models"
 	"github.com/ja-howell/playlister/videoclient"
@@ -13,6 +15,7 @@ import (
 
 const apiKeyFilepath = "API_KEY"
 const databasePath = "./db.json"
+const configPath = "./config.json"
 
 type Client interface {
 	GetResponse(nextPageToken videoclient.PageToken) (videoclient.Response, error)
@@ -34,7 +37,7 @@ func run() error {
 	}
 	client := videoclient.New(apiKey)
 
-	config, err := newConfig("config.json")
+	config, err := newConfig(configPath)
 	if err != nil {
 		return fmt.Errorf("failed to create config: %w", err)
 	}
@@ -58,6 +61,12 @@ func run() error {
 	err = writeToFile(databasePath, database)
 	if err != nil {
 		return fmt.Errorf("failed to write database: %w", err)
+	}
+
+	config.LastCollectionDate = time.Now().Format("2006-01-02T15:04:05Z")
+	err = writeToFile(configPath, config)
+	if err != nil {
+		return fmt.Errorf("failed to write config: %w", err)
 	}
 
 	log.Print("Finished updating")
@@ -138,4 +147,16 @@ func parsePlaylistFromName(rawName string) (playlist, name string) {
 	playlist = strings.TrimSpace(rawName[lastParen+1:])
 	playlist = playlist[:len(playlist)-1]
 	return playlist, name
+}
+
+func writeToFile(path string, obj any) error {
+	b, err := json.MarshalIndent(obj, "", "  ")
+	if err != nil {
+		return fmt.Errorf("failed to marshal json: %w", err)
+	}
+	err = os.WriteFile(path, b, 0644)
+	if err != nil {
+		return fmt.Errorf("failed to write file: %w", err)
+	}
+	return nil
 }
