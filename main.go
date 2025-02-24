@@ -92,6 +92,7 @@ func getAPIKey() (string, error) {
 
 // Get all the videos since the last collection date
 func GetVideosSince(c Client, lastCollectionDate string) ([]models.Video, error) {
+	log.Printf("Fetching videos since %s", lastCollectionDate)
 	videos := []models.Video{}
 
 	next := videoclient.FirstToken

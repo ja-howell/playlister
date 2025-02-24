@@ -69,11 +69,7 @@ func (c Client) GetVideoLength(videoId string) (string, error) {
 	}{}
 
 	json.Unmarshal(body, &x)
-
 	rawLength := x.Items[0].ContentDetails.Duration
-
-	fmt.Printf("Raw Length: %v\n", rawLength)
-
 	length := formatLength(rawLength)
 
 	return length, nil
