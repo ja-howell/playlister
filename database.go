@@ -30,3 +30,15 @@ func newDatabase(path string) (Database, error) {
 	}
 	return database, nil
 }
+
+func writeToFile(path string, db Database) error {
+	b, err := json.Marshal(db)
+	if err != nil {
+		return fmt.Errorf("failed to marshal database: %w", err)
+	}
+	err = os.WriteFile(path, b, 0644)
+	if err != nil {
+		return fmt.Errorf("failed to write file: %w", err)
+	}
+	return nil
+}
