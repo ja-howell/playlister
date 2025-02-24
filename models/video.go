@@ -6,4 +6,5 @@ type Video struct {
 	Thumbnail   string `json:"thumbnail,omitempty"`
 	PublishedAt string `json:"published_at,omitempty"`
 	VideoLength string `json:"video_length,omitempty"`
+	Playlist    string `json:"playlist,omitempty"`
 }
