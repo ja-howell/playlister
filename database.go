@@ -32,7 +32,7 @@ func newDatabase(path string) (Database, error) {
 }
 
 func writeToFile(path string, db Database) error {
-	b, err := json.Marshal(db)
+	b, err := json.MarshalIndent(db, "", "  ")
 	if err != nil {
 		return fmt.Errorf("failed to marshal database: %w", err)
 	}
