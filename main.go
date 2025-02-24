@@ -5,12 +5,14 @@ import (
 	"io"
 	"log"
 	"os"
+	"strings"
 
 	"github.com/ja-howell/playlister/models"
 	"github.com/ja-howell/playlister/videoclient"
 )
 
 const apiKeyFilepath = "API_KEY"
+const databasePath = "./db.json"
 
 type Client interface {
 	GetResponse(nextPageToken videoclient.PageToken) (videoclient.Response, error)
@@ -37,21 +39,29 @@ func run() error {
 		return fmt.Errorf("failed to create config: %w", err)
 	}
 
-	// database, err := newDatabase("../db.json")
-	// if err != nil {
-	// 	return fmt.Errorf("failed to create database: %w", err)
-	// }
+	database, err := newDatabase(databasePath)
+	if err != nil {
+		return fmt.Errorf("failed to create database: %w", err)
+	}
+
 	videos, err := GetVideosSince(client, config.LastCollectionDate)
 	if err != nil {
 		return fmt.Errorf("failed to get response: %w", err)
 	}
+	log.Printf("Fetched %d videos", len(videos))
 
 	for _, video := range videos {
-		fmt.Printf("Length: %v     Name: %v\n", video.VideoLength, video.Name)
+		database[video.Playlist] = append(database[video.Playlist], video)
+		log.Printf("Added '%s' to playlist: %s", video.Name, video.Playlist)
 	}
-	fmt.Println(len(videos))
 
-	// _ = database
+	err = writeToFile(databasePath, database)
+	if err != nil {
+		return fmt.Errorf("failed to write database: %w", err)
+	}
+
+	log.Print("Finished updating")
+
 	return nil
 }
 
