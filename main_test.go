@@ -13,7 +13,7 @@ func TestGetVideo(t *testing.T) {
 		PublishedAt: "2009-10-21T18:00:00Z",
 		Title:       "Fake Title",
 		Thumbnails: map[string]videoclient.Thumbnail{
-			"standard": videoclient.Thumbnail{
+			"standard": {
 				Url:    "www.testing.com",
 				Width:  100,
 				Height: 100,
