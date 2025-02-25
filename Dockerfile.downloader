@@ -1,0 +1,14 @@
+FROM golang:1.24
+
+WORKDIR /downloader
+
+COPY go.mod .
+COPY go.sum .
+
+RUN go mod download
+
+COPY . .
+
+RUN go build -o downloader .
+
+CMD ./downloader
