@@ -14,8 +14,8 @@ import (
 )
 
 const apiKeyFilepath = "API_KEY"
-const databasePath = "./db.json"
-const configPath = "./config.json"
+const databasePath = "./mnt/db.json"
+const configPath = "./mnt/config.json"
 
 type Client interface {
 	GetResponse(nextPageToken videoclient.PageToken) (videoclient.Response, error)
