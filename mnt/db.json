@@ -51,11 +51,12 @@
   ],
   "Headliners": [
     {
-      "name": "Take the shot!!!",
-      "url": "https://www.youtube.com/watch?v=Y3kiepdjk1A",
-      "thumbnail": "https://i.ytimg.com/vi/Y3kiepdjk1A/maxresdefault.jpg",
-      "published_at": "2025-02-24T21:00:34Z",
-      "video_length": "51:22"
+      "name": "YEOWCH",
+      "url": "https://www.youtube.com/watch?v=T6izW7PLOgQ",
+      "thumbnail": "https://i.ytimg.com/vi/T6izW7PLOgQ/sddefault.jpg",
+      "published_at": "2025-02-27T21:00:31Z",
+      "video_length": "52:57",
+      "playlist": "Headliners"
     }
   ],
   "Heroes of Hammerwatch II": [
@@ -82,13 +83,6 @@
     }
   ],
   "Jackbox": [
-    {
-      "name": "I'm in their walls",
-      "url": "https://www.youtube.com/watch?v=ewYn7sPoflg",
-      "thumbnail": "https://i.ytimg.com/vi/ewYn7sPoflg/maxresdefault.jpg",
-      "published_at": "2024-12-22T23:00:27Z",
-      "video_length": "56:16"
-    },
     {
       "name": "TIRE MARKS tire marks",
       "url": "https://www.youtube.com/watch?v=2MhNxuTw1BY",
@@ -1640,16 +1634,17 @@
       "published_at": "2025-02-25T22:00:47Z",
       "video_length": "1:15:51",
       "playlist": "Starless Abyss #ad"
+    },
+    {
+      "name": "This new deckbuilding roguelite is out of this world",
+      "url": "https://www.youtube.com/watch?v=ulSxExDtNTU",
+      "thumbnail": "https://i.ytimg.com/vi/ulSxExDtNTU/sddefault.jpg",
+      "published_at": "2025-02-25T22:00:47Z",
+      "video_length": "1:15:51",
+      "playlist": "Starless Abyss #ad"
     }
   ],
   "Super Mario Party Jamboree": [
-    {
-      "name": "One hundred percent crashout guaranteed",
-      "url": "https://www.youtube.com/watch?v=PZT-wEkf5BI",
-      "thumbnail": "https://i.ytimg.com/vi/PZT-wEkf5BI/maxresdefault.jpg",
-      "published_at": "2024-12-21T22:00:13Z",
-      "video_length": "3:49:16"
-    },
     {
       "name": "It's good to be back",
       "url": "https://www.youtube.com/watch?v=-g1YFEErqwo",
@@ -1720,6 +1715,30 @@
       "published_at": "2025-02-25T18:00:12Z",
       "video_length": "2:21:36",
       "playlist": "Super Mario Party Jamboree"
+    },
+    {
+      "name": "Natural disasters dont stop me",
+      "url": "https://www.youtube.com/watch?v=k0M46Q1Hyps",
+      "thumbnail": "https://i.ytimg.com/vi/k0M46Q1Hyps/sddefault.jpg",
+      "published_at": "2025-02-26T18:00:41Z",
+      "video_length": "1:39:47",
+      "playlist": "Super Mario Party Jamboree"
+    },
+    {
+      "name": "They weren't feeling me on this one",
+      "url": "https://www.youtube.com/watch?v=AqQp-HXpJjU",
+      "thumbnail": "https://i.ytimg.com/vi/AqQp-HXpJjU/sddefault.jpg",
+      "published_at": "2025-02-25T18:00:12Z",
+      "video_length": "2:21:36",
+      "playlist": "Super Mario Party Jamboree"
+    },
+    {
+      "name": "Why would he do that",
+      "url": "https://www.youtube.com/watch?v=_hdAdbRA7DA",
+      "thumbnail": "https://i.ytimg.com/vi/_hdAdbRA7DA/sddefault.jpg",
+      "published_at": "2025-02-27T19:00:32Z",
+      "video_length": "3:35:19",
+      "playlist": "Super Mario Party Jamboree"
     }
   ],
   "Supervive": [
@@ -1755,13 +1774,6 @@
     }
   ],
   "The Bazaar": [
-    {
-      "name": "Who approved this item??",
-      "url": "https://www.youtube.com/watch?v=r24EdaNSEMg",
-      "thumbnail": "https://i.ytimg.com/vi/r24EdaNSEMg/maxresdefault.jpg",
-      "published_at": "2024-12-09T19:00:34Z",
-      "video_length": "56:21"
-    },
     {
       "name": "I turn my Clamera on",
       "url": "https://www.youtube.com/watch?v=-9TVvK6hxUs",
@@ -2531,6 +2543,30 @@
       "thumbnail": "https://i.ytimg.com/vi/tKRqqbD_6Dc/sddefault.jpg",
       "published_at": "2025-02-25T17:01:07Z",
       "video_length": "51:44",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "That's why they call it \"The Bizarre\"",
+      "url": "https://www.youtube.com/watch?v=u5dsfojlRoU",
+      "thumbnail": "https://i.ytimg.com/vi/u5dsfojlRoU/sddefault.jpg",
+      "published_at": "2025-02-26T17:01:11Z",
+      "video_length": "44:17",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "He's just a chill guy",
+      "url": "https://www.youtube.com/watch?v=tKRqqbD_6Dc",
+      "thumbnail": "https://i.ytimg.com/vi/tKRqqbD_6Dc/sddefault.jpg",
+      "published_at": "2025-02-25T17:01:07Z",
+      "video_length": "51:44",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Something everything just seems to fit",
+      "url": "https://www.youtube.com/watch?v=t9c6IYC7WiE",
+      "thumbnail": "https://i.ytimg.com/vi/t9c6IYC7WiE/sddefault.jpg",
+      "published_at": "2025-02-27T17:01:09Z",
+      "video_length": "39:08",
       "playlist": "The Bazaar"
     }
   ],
