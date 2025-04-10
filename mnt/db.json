@@ -1,4 +1,64 @@
 {
+  "Cine2Nerdle Battles": [
+    {
+      "name": "The Comedy will never let us down",
+      "url": "https://www.youtube.com/watch?v=pWrJAWd_sWM",
+      "thumbnail": "https://i.ytimg.com/vi/pWrJAWd_sWM/sddefault.jpg",
+      "published_at": "2025-03-21T18:00:48Z",
+      "video_length": "33:00",
+      "playlist": "Cine2Nerdle Battles"
+    },
+    {
+      "name": "OK I guess Inspector Gadget isn't a crime movie",
+      "url": "https://www.youtube.com/watch?v=XuECZhzqtbw",
+      "thumbnail": "https://i.ytimg.com/vi/XuECZhzqtbw/sddefault.jpg",
+      "published_at": "2025-03-23T18:00:17Z",
+      "video_length": "42:41",
+      "playlist": "Cine2Nerdle Battles"
+    },
+    {
+      "name": "Jason Lee sci-fi...you know it's on sight",
+      "url": "https://www.youtube.com/watch?v=4v8jDcBaElE",
+      "thumbnail": "https://i.ytimg.com/vi/4v8jDcBaElE/sddefault.jpg",
+      "published_at": "2025-03-25T18:00:03Z",
+      "video_length": "34:52",
+      "playlist": "Cine2Nerdle Battles"
+    },
+    {
+      "name": "Letterbox Larry has returned with a vengeance",
+      "url": "https://www.youtube.com/watch?v=ktS2zf038Z0",
+      "thumbnail": "https://i.ytimg.com/vi/ktS2zf038Z0/sddefault.jpg",
+      "published_at": "2025-03-27T18:00:37Z",
+      "video_length": "43:08",
+      "playlist": "Cine2Nerdle Battles"
+    }
+  ],
+  "Clank": [
+    {
+      "name": "How could you do this to me",
+      "url": "https://www.youtube.com/watch?v=M5AWULniEtg",
+      "thumbnail": "https://i.ytimg.com/vi/M5AWULniEtg/sddefault.jpg",
+      "published_at": "2025-03-01T20:00:17Z",
+      "video_length": "28:45",
+      "playlist": "Clank"
+    },
+    {
+      "name": "These guys are pro Clankers",
+      "url": "https://www.youtube.com/watch?v=lK6R2QAk9W8",
+      "thumbnail": "https://i.ytimg.com/vi/lK6R2QAk9W8/sddefault.jpg",
+      "published_at": "2025-03-02T20:00:25Z",
+      "video_length": "34:33",
+      "playlist": "Clank"
+    },
+    {
+      "name": "I never forget a cat",
+      "url": "https://www.youtube.com/watch?v=aNQZCQdAXbQ",
+      "thumbnail": "https://i.ytimg.com/vi/aNQZCQdAXbQ/sddefault.jpg",
+      "published_at": "2025-03-03T20:00:00Z",
+      "video_length": "32:04",
+      "playlist": "Clank"
+    }
+  ],
   "Diceomancer": [
     {
       "name": "Could this be the next Balatro?",
@@ -49,16 +109,6 @@
       "video_length": "55:25"
     }
   ],
-  "Headliners": [
-    {
-      "name": "YEOWCH",
-      "url": "https://www.youtube.com/watch?v=T6izW7PLOgQ",
-      "thumbnail": "https://i.ytimg.com/vi/T6izW7PLOgQ/sddefault.jpg",
-      "published_at": "2025-02-27T21:00:31Z",
-      "video_length": "52:57",
-      "playlist": "Headliners"
-    }
-  ],
   "Heroes of Hammerwatch II": [
     {
       "name": "She called it a \"noob door\", bro",
@@ -84,20 +134,6 @@
   ],
   "Jackbox": [
     {
-      "name": "TIRE MARKS tire marks",
-      "url": "https://www.youtube.com/watch?v=2MhNxuTw1BY",
-      "thumbnail": "https://i.ytimg.com/vi/2MhNxuTw1BY/maxresdefault.jpg",
-      "published_at": "2025-01-22T21:00:02Z",
-      "video_length": "47:12"
-    },
-    {
-      "name": "They just won't let it go man",
-      "url": "https://www.youtube.com/watch?v=yDDAHg8lUAM",
-      "thumbnail": "https://i.ytimg.com/vi/yDDAHg8lUAM/maxresdefault.jpg",
-      "published_at": "2025-01-23T21:00:47Z",
-      "video_length": "59:19"
-    },
-    {
       "name": "After you Blather, you gotta rinse",
       "url": "https://www.youtube.com/watch?v=vor-BRiT9iI",
       "thumbnail": "https://i.ytimg.com/vi/vor-BRiT9iI/maxresdefault.jpg",
@@ -117,6 +153,30 @@
       "thumbnail": "https://i.ytimg.com/vi/tgnasbrDI4k/maxresdefault.jpg",
       "published_at": "2025-02-03T19:00:39Z",
       "video_length": "1:23:41"
+    },
+    {
+      "name": "Coworker Jackbox",
+      "url": "https://www.youtube.com/watch?v=Ky5hmesgyQY",
+      "thumbnail": "https://i.ytimg.com/vi/Ky5hmesgyQY/sddefault.jpg",
+      "published_at": "2025-03-05T21:00:18Z",
+      "video_length": "1:02:00",
+      "playlist": "Jackbox"
+    },
+    {
+      "name": "You're not beating me at the grocery game",
+      "url": "https://www.youtube.com/watch?v=ze_yIoArzQc",
+      "thumbnail": "https://i.ytimg.com/vi/ze_yIoArzQc/sddefault.jpg",
+      "published_at": "2025-03-06T21:00:46Z",
+      "video_length": "55:34",
+      "playlist": "Jackbox"
+    },
+    {
+      "name": "They really do be Blathering",
+      "url": "https://www.youtube.com/watch?v=EHlelu0bWzU",
+      "thumbnail": "https://i.ytimg.com/vi/EHlelu0bWzU/sddefault.jpg",
+      "published_at": "2025-03-19T20:00:16Z",
+      "video_length": "1:03:57",
+      "playlist": "Jackbox"
     }
   ],
   "Keep Driving": [
@@ -126,6 +186,26 @@
       "thumbnail": "https://i.ytimg.com/vi/0uiHf0_GjtM/maxresdefault.jpg",
       "published_at": "2025-02-11T19:00:02Z",
       "video_length": "1:03:47"
+    }
+  ],
+  "Knock At The Coffin Lid #ad": [
+    {
+      "name": "The greatest deckbuilder player of all time?",
+      "url": "https://www.youtube.com/watch?v=Vvxo-FkdbOE",
+      "thumbnail": "https://i.ytimg.com/vi/Vvxo-FkdbOE/sddefault.jpg",
+      "published_at": "2025-04-08T00:20:51Z",
+      "video_length": "2:24:45",
+      "playlist": "Knock At The Coffin Lid #ad"
+    }
+  ],
+  "Lonestar": [
+    {
+      "name": "It's actually FTL meets The Bazaar",
+      "url": "https://www.youtube.com/watch?v=gyQEKqF2bSk",
+      "thumbnail": "https://i.ytimg.com/vi/gyQEKqF2bSk/sddefault.jpg",
+      "published_at": "2025-04-08T20:00:23Z",
+      "video_length": "1:43:04",
+      "playlist": "Lonestar"
     }
   ],
   "Lost But Found": [
@@ -550,6 +630,70 @@
       "thumbnail": "https://i.ytimg.com/vi/yNiUiAamLsY/maxresdefault.jpg",
       "published_at": "2025-02-09T21:00:42Z",
       "video_length": "1:35:41"
+    },
+    {
+      "name": "Which countries love McDonalds the most?",
+      "url": "https://www.youtube.com/watch?v=FbCwIdwCpsg",
+      "thumbnail": "https://i.ytimg.com/vi/FbCwIdwCpsg/sddefault.jpg",
+      "published_at": "2025-03-14T18:00:10Z",
+      "video_length": "1:09:23",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "I might actually have ESPN",
+      "url": "https://www.youtube.com/watch?v=3y8IystfNy4",
+      "thumbnail": "https://i.ytimg.com/vi/3y8IystfNy4/sddefault.jpg",
+      "published_at": "2025-03-16T18:00:02Z",
+      "video_length": "1:00:12",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "It's called a fermi estimate kid, look it up",
+      "url": "https://www.youtube.com/watch?v=sFQkFyDiGZs",
+      "thumbnail": "https://i.ytimg.com/vi/sFQkFyDiGZs/sddefault.jpg",
+      "published_at": "2025-03-18T18:00:44Z",
+      "video_length": "1:11:37",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "Everybody must get Wonderstone",
+      "url": "https://www.youtube.com/watch?v=iBIMKoN27N8",
+      "thumbnail": "https://i.ytimg.com/vi/iBIMKoN27N8/sddefault.jpg",
+      "published_at": "2025-03-20T19:00:29Z",
+      "video_length": "1:00:12",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "Can he say that?",
+      "url": "https://www.youtube.com/watch?v=SIO6wLhNLvE",
+      "thumbnail": "https://i.ytimg.com/vi/SIO6wLhNLvE/sddefault.jpg",
+      "published_at": "2025-04-02T17:00:25Z",
+      "video_length": "1:39:57",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "He played the bad guy in Midsommar",
+      "url": "https://www.youtube.com/watch?v=32wSkS-kjXQ",
+      "thumbnail": "https://i.ytimg.com/vi/32wSkS-kjXQ/sddefault.jpg",
+      "published_at": "2025-04-03T18:00:04Z",
+      "video_length": "1:03:47",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "THE PROTEINLER",
+      "url": "https://www.youtube.com/watch?v=agoIc7bVS-U",
+      "thumbnail": "https://i.ytimg.com/vi/agoIc7bVS-U/sddefault.jpg",
+      "published_at": "2025-04-04T18:00:02Z",
+      "video_length": "1:05:48",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "It wasn't me",
+      "url": "https://www.youtube.com/watch?v=4x11J4csDqk",
+      "thumbnail": "https://i.ytimg.com/vi/4x11J4csDqk/sddefault.jpg",
+      "published_at": "2025-04-08T18:00:07Z",
+      "video_length": "1:28:40",
+      "playlist": "Miscellaneous"
     }
   ],
   "Nintendo World Championships: NES Edition": [
@@ -587,13 +731,136 @@
       "thumbnail": "https://i.ytimg.com/vi/mGD7KQEeB1U/maxresdefault.jpg",
       "published_at": "2024-08-19T21:00:36Z",
       "video_length": "55:07"
+    }
+  ],
+  "Nubby's Number Factory": [
+    {
+      "name": "Jake the GOAT fr",
+      "url": "https://www.youtube.com/watch?v=2694tRR46vE",
+      "thumbnail": "https://i.ytimg.com/vi/2694tRR46vE/sddefault.jpg",
+      "published_at": "2025-03-18T20:00:01Z",
+      "video_length": "46:05",
+      "playlist": "Nubby's Number Factory"
     },
     {
-      "name": "The game so nice they made it thrice",
-      "url": "https://www.youtube.com/watch?v=UgZkrGa07yE",
-      "thumbnail": "https://i.ytimg.com/vi/UgZkrGa07yE/maxresdefault.jpg",
-      "published_at": "2024-08-18T21:00:15Z",
-      "video_length": "59:29"
+      "name": "Putting the Ohno in Apollo Ohno",
+      "url": "https://www.youtube.com/watch?v=bwDeA3488tA",
+      "thumbnail": "https://i.ytimg.com/vi/bwDeA3488tA/sddefault.jpg",
+      "published_at": "2025-03-20T20:00:21Z",
+      "video_length": "46:56",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "The hardest challenge in Nubby history",
+      "url": "https://www.youtube.com/watch?v=dMFBo5xirv4",
+      "thumbnail": "https://i.ytimg.com/vi/dMFBo5xirv4/sddefault.jpg",
+      "published_at": "2025-03-22T20:00:18Z",
+      "video_length": "23:39",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "It runs in the family",
+      "url": "https://www.youtube.com/watch?v=YdJG4HL-2Gc",
+      "thumbnail": "https://i.ytimg.com/vi/YdJG4HL-2Gc/sddefault.jpg",
+      "published_at": "2025-03-24T20:00:18Z",
+      "video_length": "40:55",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "None of these words are in the bible",
+      "url": "https://www.youtube.com/watch?v=9MYlFFgr2qQ",
+      "thumbnail": "https://i.ytimg.com/vi/9MYlFFgr2qQ/sddefault.jpg",
+      "published_at": "2025-03-26T20:00:07Z",
+      "video_length": "39:09",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "Thinking of getting this tattooed on me",
+      "url": "https://www.youtube.com/watch?v=LHXK98ahTIE",
+      "thumbnail": "https://i.ytimg.com/vi/LHXK98ahTIE/sddefault.jpg",
+      "published_at": "2025-03-28T20:00:11Z",
+      "video_length": "44:29",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "I may legit be washed",
+      "url": "https://www.youtube.com/watch?v=qdYyUU-sk2o",
+      "thumbnail": "https://i.ytimg.com/vi/qdYyUU-sk2o/sddefault.jpg",
+      "published_at": "2025-03-30T20:00:22Z",
+      "video_length": "27:04",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "Sorry brother, nothin' on me",
+      "url": "https://www.youtube.com/watch?v=E9_fZAyg7Rc",
+      "thumbnail": "https://i.ytimg.com/vi/E9_fZAyg7Rc/sddefault.jpg",
+      "published_at": "2025-03-31T20:00:09Z",
+      "video_length": "44:20",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "Goblonny sends his regards",
+      "url": "https://www.youtube.com/watch?v=1oYhinqpJAw",
+      "thumbnail": "https://i.ytimg.com/vi/1oYhinqpJAw/sddefault.jpg",
+      "published_at": "2025-04-01T20:00:02Z",
+      "video_length": "59:41",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "I can't see the forest through the trees",
+      "url": "https://www.youtube.com/watch?v=qrSzPJILnGc",
+      "thumbnail": "https://i.ytimg.com/vi/qrSzPJILnGc/sddefault.jpg",
+      "published_at": "2025-04-02T20:00:34Z",
+      "video_length": "30:50",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "You can't be tilting during your shift",
+      "url": "https://www.youtube.com/watch?v=tW4bWnEUlvE",
+      "thumbnail": "https://i.ytimg.com/vi/tW4bWnEUlvE/sddefault.jpg",
+      "published_at": "2025-04-03T20:00:33Z",
+      "video_length": "29:36",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "Put some respect on my mans",
+      "url": "https://www.youtube.com/watch?v=6NBzAdocGwk",
+      "thumbnail": "https://i.ytimg.com/vi/6NBzAdocGwk/sddefault.jpg",
+      "published_at": "2025-04-06T20:00:04Z",
+      "video_length": "58:48",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "They updated the Nubby factory",
+      "url": "https://www.youtube.com/watch?v=QTbyCl2zFaA",
+      "thumbnail": "https://i.ytimg.com/vi/QTbyCl2zFaA/sddefault.jpg",
+      "published_at": "2025-04-05T20:00:10Z",
+      "video_length": "54:33",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "Just when I had lost all hope",
+      "url": "https://www.youtube.com/watch?v=9FVVv0fz5bo",
+      "thumbnail": "https://i.ytimg.com/vi/9FVVv0fz5bo/sddefault.jpg",
+      "published_at": "2025-04-04T20:00:05Z",
+      "video_length": "44:56",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "His name is Tony Jr.",
+      "url": "https://www.youtube.com/watch?v=kvZYVrf0l_g",
+      "thumbnail": "https://i.ytimg.com/vi/kvZYVrf0l_g/sddefault.jpg",
+      "published_at": "2025-04-07T20:00:33Z",
+      "video_length": "33:04",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "It's E3 people, it's E3",
+      "url": "https://www.youtube.com/watch?v=6q4nwOuadyA",
+      "thumbnail": "https://i.ytimg.com/vi/6q4nwOuadyA/sddefault.jpg",
+      "published_at": "2025-04-08T20:00:06Z",
+      "video_length": "39:43",
+      "playlist": "Nubby's Number Factory"
     }
   ],
   "Pairs and Perils": [
@@ -1615,6 +1882,54 @@
       "thumbnail": "https://i.ytimg.com/vi/-dheMVJfKtQ/maxresdefault.jpg",
       "published_at": "2025-02-03T17:00:00Z",
       "video_length": "48:52"
+    },
+    {
+      "name": "I forgot what I was doing",
+      "url": "https://www.youtube.com/watch?v=k5eTH996XBY",
+      "thumbnail": "https://i.ytimg.com/vi/k5eTH996XBY/sddefault.jpg",
+      "published_at": "2025-03-18T18:00:39Z",
+      "video_length": "24:25",
+      "playlist": "Slay the Spire"
+    },
+    {
+      "name": "Any damage dealers in the chat?",
+      "url": "https://www.youtube.com/watch?v=-y72E_SjhsA",
+      "thumbnail": "https://i.ytimg.com/vi/-y72E_SjhsA/sddefault.jpg",
+      "published_at": "2025-03-20T18:00:00Z",
+      "video_length": "54:15",
+      "playlist": "Slay the Spire"
+    },
+    {
+      "name": "I'm busy doing nothing",
+      "url": "https://www.youtube.com/watch?v=EiDKor1dm7Q",
+      "thumbnail": "https://i.ytimg.com/vi/EiDKor1dm7Q/sddefault.jpg",
+      "published_at": "2025-03-22T18:00:09Z",
+      "video_length": "52:00",
+      "playlist": "Slay the Spire"
+    },
+    {
+      "name": "OK now what",
+      "url": "https://www.youtube.com/watch?v=gsRsxR6Ds6g",
+      "thumbnail": "https://i.ytimg.com/vi/gsRsxR6Ds6g/sddefault.jpg",
+      "published_at": "2025-03-24T18:00:36Z",
+      "video_length": "25:47",
+      "playlist": "Slay the Spire"
+    },
+    {
+      "name": "Can you deal with that?",
+      "url": "https://www.youtube.com/watch?v=cL46XCnUrTA",
+      "thumbnail": "https://i.ytimg.com/vi/cL46XCnUrTA/sddefault.jpg",
+      "published_at": "2025-03-26T18:00:33Z",
+      "video_length": "50:09",
+      "playlist": "Slay the Spire"
+    },
+    {
+      "name": "The bruiser",
+      "url": "https://www.youtube.com/watch?v=38M_6K9eqxU",
+      "thumbnail": "https://i.ytimg.com/vi/38M_6K9eqxU/sddefault.jpg",
+      "published_at": "2025-03-31T18:00:02Z",
+      "video_length": "55:53",
+      "playlist": "Slay the Spire"
     }
   ],
   "Sporcle": [
@@ -1644,100 +1959,39 @@
       "playlist": "Starless Abyss #ad"
     }
   ],
+  "Sultan's Game": [
+    {
+      "name": "We're gonna run this town soon",
+      "url": "https://www.youtube.com/watch?v=C_HrfCp53C4",
+      "thumbnail": "https://i.ytimg.com/vi/C_HrfCp53C4/sddefault.jpg",
+      "published_at": "2025-04-05T19:00:08Z",
+      "video_length": "1:13:52",
+      "playlist": "Sultan's Game"
+    }
+  ],
   "Super Mario Party Jamboree": [
     {
-      "name": "It's good to be back",
-      "url": "https://www.youtube.com/watch?v=-g1YFEErqwo",
-      "thumbnail": "https://i.ytimg.com/vi/-g1YFEErqwo/maxresdefault.jpg",
-      "published_at": "2025-01-07T18:00:00Z",
-      "video_length": "2:21:19"
-    },
-    {
-      "name": "It's good to be back",
-      "url": "https://www.youtube.com/watch?v=zE35gNKaQTc",
-      "thumbnail": "https://i.ytimg.com/vi/zE35gNKaQTc/maxresdefault.jpg",
-      "published_at": "2025-01-08T18:00:45Z",
-      "video_length": "2:25:12"
-    },
-    {
-      "name": "They hated him for he spoke the truth",
-      "url": "https://www.youtube.com/watch?v=8xv6Ujo_il4",
-      "thumbnail": "https://i.ytimg.com/vi/8xv6Ujo_il4/maxresdefault.jpg",
-      "published_at": "2025-01-16T18:00:06Z",
-      "video_length": "3:25:38"
-    },
-    {
-      "name": "What have you done to chance time",
-      "url": "https://www.youtube.com/watch?v=F26Ybt7D5wY",
-      "thumbnail": "https://i.ytimg.com/vi/F26Ybt7D5wY/maxresdefault.jpg",
-      "published_at": "2025-01-25T21:00:14Z",
-      "video_length": "3:06:12"
-    },
-    {
-      "name": "They're not making new Drews man",
-      "url": "https://www.youtube.com/watch?v=kbzFM5po43c",
-      "thumbnail": "https://i.ytimg.com/vi/kbzFM5po43c/maxresdefault.jpg",
-      "published_at": "2025-01-26T21:00:24Z",
-      "video_length": "3:01:41"
-    },
-    {
-      "name": "I was in my bag",
-      "url": "https://www.youtube.com/watch?v=kq6nylZwU-M",
-      "thumbnail": "https://i.ytimg.com/vi/kq6nylZwU-M/maxresdefault.jpg",
-      "published_at": "2025-01-30T20:00:25Z",
-      "video_length": "1:26:43"
-    },
-    {
-      "name": "Take a chance time on me",
-      "url": "https://www.youtube.com/watch?v=x9RwV7sDoVk",
-      "thumbnail": "https://i.ytimg.com/vi/x9RwV7sDoVk/maxresdefault.jpg",
-      "published_at": "2025-02-02T19:00:38Z",
-      "video_length": "3:32:29"
-    },
-    {
-      "name": "This one is built different",
-      "url": "https://www.youtube.com/watch?v=zIgOsJLg2Yo",
-      "thumbnail": "https://i.ytimg.com/vi/zIgOsJLg2Yo/maxresdefault.jpg",
-      "published_at": "2025-02-05T21:00:58Z",
-      "video_length": "1:29:04"
-    },
-    {
-      "name": "The comedic timing goes crazy",
-      "url": "https://www.youtube.com/watch?v=3D_SElwEDlw",
-      "thumbnail": "https://i.ytimg.com/vi/3D_SElwEDlw/maxresdefault.jpg",
-      "published_at": "2025-02-06T21:00:07Z",
-      "video_length": "2:24:58"
-    },
-    {
-      "name": "They weren't feeling me on this one",
-      "url": "https://www.youtube.com/watch?v=AqQp-HXpJjU",
-      "thumbnail": "https://i.ytimg.com/vi/AqQp-HXpJjU/sddefault.jpg",
-      "published_at": "2025-02-25T18:00:12Z",
-      "video_length": "2:21:36",
+      "name": "I'm for real taking big donut though",
+      "url": "https://www.youtube.com/watch?v=Y4LbJgm6fbE",
+      "thumbnail": "https://i.ytimg.com/vi/Y4LbJgm6fbE/sddefault.jpg",
+      "published_at": "2025-03-19T20:00:30Z",
+      "video_length": "3:15:08",
       "playlist": "Super Mario Party Jamboree"
     },
     {
-      "name": "Natural disasters dont stop me",
-      "url": "https://www.youtube.com/watch?v=k0M46Q1Hyps",
-      "thumbnail": "https://i.ytimg.com/vi/k0M46Q1Hyps/sddefault.jpg",
-      "published_at": "2025-02-26T18:00:41Z",
-      "video_length": "1:39:47",
+      "name": "You have to cut it on the bias",
+      "url": "https://www.youtube.com/watch?v=4VLltmWChQ0",
+      "thumbnail": "https://i.ytimg.com/vi/4VLltmWChQ0/sddefault.jpg",
+      "published_at": "2025-03-21T20:00:04Z",
+      "video_length": "1:26:51",
       "playlist": "Super Mario Party Jamboree"
     },
     {
-      "name": "They weren't feeling me on this one",
-      "url": "https://www.youtube.com/watch?v=AqQp-HXpJjU",
-      "thumbnail": "https://i.ytimg.com/vi/AqQp-HXpJjU/sddefault.jpg",
-      "published_at": "2025-02-25T18:00:12Z",
-      "video_length": "2:21:36",
-      "playlist": "Super Mario Party Jamboree"
-    },
-    {
-      "name": "Why would he do that",
-      "url": "https://www.youtube.com/watch?v=_hdAdbRA7DA",
-      "thumbnail": "https://i.ytimg.com/vi/_hdAdbRA7DA/sddefault.jpg",
-      "published_at": "2025-02-27T19:00:32Z",
-      "video_length": "3:35:19",
+      "name": "Finally the discussion we've all been waiting for",
+      "url": "https://www.youtube.com/watch?v=rzN6RZPkHoc",
+      "thumbnail": "https://i.ytimg.com/vi/rzN6RZPkHoc/sddefault.jpg",
+      "published_at": "2025-04-05T18:00:40Z",
+      "video_length": "2:25:11",
       "playlist": "Super Mario Party Jamboree"
     }
   ],
@@ -1775,270 +2029,11 @@
   ],
   "The Bazaar": [
     {
-      "name": "I turn my Clamera on",
-      "url": "https://www.youtube.com/watch?v=-9TVvK6hxUs",
-      "thumbnail": "https://i.ytimg.com/vi/-9TVvK6hxUs/maxresdefault.jpg",
-      "published_at": "2024-12-10T19:00:00Z",
-      "video_length": "1:00:59"
-    },
-    {
-      "name": "The pogging barrel",
-      "url": "https://www.youtube.com/watch?v=f8vnDnv8Ssw",
-      "thumbnail": "https://i.ytimg.com/vi/f8vnDnv8Ssw/maxresdefault.jpg",
-      "published_at": "2024-12-10T18:00:33Z",
-      "video_length": "43:40"
-    },
-    {
-      "name": "The diamond spoke to me",
-      "url": "https://www.youtube.com/watch?v=ne7pMMOAnSc",
-      "thumbnail": "https://i.ytimg.com/vi/ne7pMMOAnSc/maxresdefault.jpg",
-      "published_at": "2024-12-11T19:00:33Z",
-      "video_length": "1:06:10"
-    },
-    {
-      "name": "What am I even doing?",
-      "url": "https://www.youtube.com/watch?v=9NyguCxdQCo",
-      "thumbnail": "https://i.ytimg.com/vi/9NyguCxdQCo/maxresdefault.jpg",
-      "published_at": "2024-12-11T18:00:07Z",
-      "video_length": "39:14"
-    },
-    {
-      "name": "I see the Trebuchet and I take it",
-      "url": "https://www.youtube.com/watch?v=uGQDF4Fsc8c",
-      "thumbnail": "https://i.ytimg.com/vi/uGQDF4Fsc8c/maxresdefault.jpg",
-      "published_at": "2024-12-12T19:00:35Z",
-      "video_length": "57:51"
-    },
-    {
-      "name": "My shield = your problem",
-      "url": "https://www.youtube.com/watch?v=7ZtEdAGsj34",
-      "thumbnail": "https://i.ytimg.com/vi/7ZtEdAGsj34/maxresdefault.jpg",
-      "published_at": "2024-12-12T18:00:04Z",
-      "video_length": "42:31"
-    },
-    {
-      "name": "They said it couldn't be done",
-      "url": "https://www.youtube.com/watch?v=Ns6PmPXFK1I",
-      "thumbnail": "https://i.ytimg.com/vi/Ns6PmPXFK1I/maxresdefault.jpg",
-      "published_at": "2024-12-13T19:00:20Z",
-      "video_length": "1:00:59"
-    },
-    {
-      "name": "Good boy",
-      "url": "https://www.youtube.com/watch?v=WQzmNQRFkmQ",
-      "thumbnail": "https://i.ytimg.com/vi/WQzmNQRFkmQ/maxresdefault.jpg",
-      "published_at": "2024-12-13T18:00:20Z",
-      "video_length": "46:36"
-    },
-    {
-      "name": "They call me the yoyo master",
-      "url": "https://www.youtube.com/watch?v=wMHQtlTxhxk",
-      "thumbnail": "https://i.ytimg.com/vi/wMHQtlTxhxk/maxresdefault.jpg",
-      "published_at": "2024-12-14T19:00:39Z",
-      "video_length": "1:36:56"
-    },
-    {
-      "name": "You can't beat this start",
-      "url": "https://www.youtube.com/watch?v=V3f9TJemGpo",
-      "thumbnail": "https://i.ytimg.com/vi/V3f9TJemGpo/maxresdefault.jpg",
-      "published_at": "2024-12-14T18:00:27Z",
-      "video_length": "59:03"
-    },
-    {
-      "name": "Beast mode I'm afraid",
-      "url": "https://www.youtube.com/watch?v=LKfgXCEBc3I",
-      "thumbnail": "https://i.ytimg.com/vi/LKfgXCEBc3I/maxresdefault.jpg",
-      "published_at": "2024-12-15T19:00:10Z",
-      "video_length": "1:23:49"
-    },
-    {
-      "name": "I'll stop doing it when you stop pogging",
-      "url": "https://www.youtube.com/watch?v=Z0LEsYx1-WQ",
-      "thumbnail": "https://i.ytimg.com/vi/Z0LEsYx1-WQ/maxresdefault.jpg",
-      "published_at": "2024-12-15T18:00:19Z",
-      "video_length": "46:17"
-    },
-    {
-      "name": "Not all Jebalians are pacifists bro, educate yourself",
-      "url": "https://www.youtube.com/watch?v=QmfqxIIPV3I",
-      "thumbnail": "https://i.ytimg.com/vi/QmfqxIIPV3I/maxresdefault.jpg",
-      "published_at": "2024-12-16T19:00:19Z",
-      "video_length": "51:53"
-    },
-    {
-      "name": "They said Cash Cannon can't work",
-      "url": "https://www.youtube.com/watch?v=AVP0NXDSCAI",
-      "thumbnail": "https://i.ytimg.com/vi/AVP0NXDSCAI/maxresdefault.jpg",
-      "published_at": "2024-12-16T18:00:07Z",
-      "video_length": "1:05:38"
-    },
-    {
-      "name": "Lil bro thinks he's the zookeeper",
-      "url": "https://www.youtube.com/watch?v=yvYa5H_L-Ak",
-      "thumbnail": "https://i.ytimg.com/vi/yvYa5H_L-Ak/maxresdefault.jpg",
-      "published_at": "2024-12-17T19:00:37Z",
-      "video_length": "38:15"
-    },
-    {
-      "name": "All the man knows how to do is pivot",
-      "url": "https://www.youtube.com/watch?v=dcEwB93zJIU",
-      "thumbnail": "https://i.ytimg.com/vi/dcEwB93zJIU/maxresdefault.jpg",
-      "published_at": "2024-12-17T18:00:22Z",
-      "video_length": "46:09"
-    },
-    {
-      "name": "The portable galleon",
-      "url": "https://www.youtube.com/watch?v=BHtNr-rGvYM",
-      "thumbnail": "https://i.ytimg.com/vi/BHtNr-rGvYM/maxresdefault.jpg",
-      "published_at": "2024-12-18T19:00:07Z",
-      "video_length": "40:09"
-    },
-    {
-      "name": "Get him OUTTA here",
-      "url": "https://www.youtube.com/watch?v=CvZZn0ttNWo",
-      "thumbnail": "https://i.ytimg.com/vi/CvZZn0ttNWo/maxresdefault.jpg",
-      "published_at": "2024-12-18T18:00:16Z",
-      "video_length": "47:28"
-    },
-    {
-      "name": "Dad got the shiny trebuchet",
-      "url": "https://www.youtube.com/watch?v=3dBW-QRt36E",
-      "thumbnail": "https://i.ytimg.com/vi/3dBW-QRt36E/maxresdefault.jpg",
-      "published_at": "2024-12-19T19:00:02Z",
-      "video_length": "53:34"
-    },
-    {
-      "name": "The silent barker",
-      "url": "https://www.youtube.com/watch?v=rpm4kVkz_w4",
-      "thumbnail": "https://i.ytimg.com/vi/rpm4kVkz_w4/maxresdefault.jpg",
-      "published_at": "2024-12-19T18:00:39Z",
-      "video_length": "33:46"
-    },
-    {
-      "name": "If you don't take this you're cooked",
-      "url": "https://www.youtube.com/watch?v=tGaW4v02Ftk",
-      "thumbnail": "https://i.ytimg.com/vi/tGaW4v02Ftk/maxresdefault.jpg",
-      "published_at": "2024-12-20T19:00:34Z",
-      "video_length": "50:29"
-    },
-    {
-      "name": "If any item could save us",
-      "url": "https://www.youtube.com/watch?v=hasIoaVnPQ8",
-      "thumbnail": "https://i.ytimg.com/vi/hasIoaVnPQ8/maxresdefault.jpg",
-      "published_at": "2024-12-20T18:00:35Z",
-      "video_length": "46:12"
-    },
-    {
-      "name": "Just put the potion in the bag",
-      "url": "https://www.youtube.com/watch?v=kDhpM15h5eA",
-      "thumbnail": "https://i.ytimg.com/vi/kDhpM15h5eA/maxresdefault.jpg",
-      "published_at": "2024-12-21T19:00:33Z",
-      "video_length": "40:22"
-    },
-    {
-      "name": "WHAMMY",
-      "url": "https://www.youtube.com/watch?v=0-Prv77Seug",
-      "thumbnail": "https://i.ytimg.com/vi/0-Prv77Seug/maxresdefault.jpg",
-      "published_at": "2024-12-21T18:00:01Z",
-      "video_length": "33:48"
-    },
-    {
-      "name": "Waiter! Waiter! More upgrades please!",
-      "url": "https://www.youtube.com/watch?v=VopIiqKPOUU",
-      "thumbnail": "https://i.ytimg.com/vi/VopIiqKPOUU/maxresdefault.jpg",
-      "published_at": "2024-12-22T19:00:25Z",
-      "video_length": "42:03"
-    },
-    {
-      "name": "Do you know the toll six pivots take on a man?",
-      "url": "https://www.youtube.com/watch?v=XVegZZgI3RY",
-      "thumbnail": "https://i.ytimg.com/vi/XVegZZgI3RY/maxresdefault.jpg",
-      "published_at": "2024-12-22T18:00:18Z",
-      "video_length": "30:58"
-    },
-    {
-      "name": "My cutlass is ride or die",
-      "url": "https://www.youtube.com/watch?v=j5tuUnwDduI",
-      "thumbnail": "https://i.ytimg.com/vi/j5tuUnwDduI/maxresdefault.jpg",
-      "published_at": "2024-12-23T19:00:23Z",
-      "video_length": "1:12:52"
-    },
-    {
-      "name": "Double it and give it to the next guy",
-      "url": "https://www.youtube.com/watch?v=GMCABlU_rb8",
-      "thumbnail": "https://i.ytimg.com/vi/GMCABlU_rb8/maxresdefault.jpg",
-      "published_at": "2024-12-23T18:00:11Z",
-      "video_length": "46:51"
-    },
-    {
-      "name": "He's going ranked mode",
-      "url": "https://www.youtube.com/watch?v=AP5SgrsntwY",
-      "thumbnail": "https://i.ytimg.com/vi/AP5SgrsntwY/maxresdefault.jpg",
-      "published_at": "2024-12-24T19:00:03Z",
-      "video_length": "47:31"
-    },
-    {
-      "name": "Walk the plank",
-      "url": "https://www.youtube.com/watch?v=3mmzdpwJh9c",
-      "thumbnail": "https://i.ytimg.com/vi/3mmzdpwJh9c/maxresdefault.jpg",
-      "published_at": "2024-12-24T18:00:02Z",
-      "video_length": "35:39"
-    },
-    {
-      "name": "The anointed duct tape",
-      "url": "https://www.youtube.com/watch?v=mO3m_ABXgro",
-      "thumbnail": "https://i.ytimg.com/vi/mO3m_ABXgro/maxresdefault.jpg",
-      "published_at": "2024-12-25T19:00:32Z",
-      "video_length": "50:54"
-    },
-    {
-      "name": "Be careful who you call trash",
-      "url": "https://www.youtube.com/watch?v=sOURCAMsDv0",
-      "thumbnail": "https://i.ytimg.com/vi/sOURCAMsDv0/maxresdefault.jpg",
-      "published_at": "2024-12-25T18:00:38Z",
-      "video_length": "41:08"
-    },
-    {
-      "name": "The pogging anchor",
-      "url": "https://www.youtube.com/watch?v=uGy1gYAd5dw",
-      "thumbnail": "https://i.ytimg.com/vi/uGy1gYAd5dw/maxresdefault.jpg",
-      "published_at": "2024-12-26T19:00:29Z",
-      "video_length": "52:10"
-    },
-    {
-      "name": "This wheel are sick",
-      "url": "https://www.youtube.com/watch?v=26_XIoVXDsE",
-      "thumbnail": "https://i.ytimg.com/vi/26_XIoVXDsE/maxresdefault.jpg",
-      "published_at": "2024-12-26T18:00:00Z",
-      "video_length": "39:04"
-    },
-    {
-      "name": "He got the 32,000x scope",
-      "url": "https://www.youtube.com/watch?v=mHbdY2mhWI8",
-      "thumbnail": "https://i.ytimg.com/vi/mHbdY2mhWI8/maxresdefault.jpg",
-      "published_at": "2024-12-27T19:00:33Z",
-      "video_length": "50:41"
-    },
-    {
-      "name": "Did they remove powder flask from the game?",
-      "url": "https://www.youtube.com/watch?v=Es6nmXi5cxI",
-      "thumbnail": "https://i.ytimg.com/vi/Es6nmXi5cxI/maxresdefault.jpg",
-      "published_at": "2024-12-27T18:00:09Z",
-      "video_length": "31:14"
-    },
-    {
       "name": "This one might look a little familiar",
       "url": "https://www.youtube.com/watch?v=W3M-d5Pkc0w",
       "thumbnail": "https://i.ytimg.com/vi/W3M-d5Pkc0w/maxresdefault.jpg",
       "published_at": "2024-12-28T19:00:19Z",
       "video_length": "51:54"
-    },
-    {
-      "name": "Shiny and chrome",
-      "url": "https://www.youtube.com/watch?v=W9ovfLdClrY",
-      "thumbnail": "https://i.ytimg.com/vi/W9ovfLdClrY/maxresdefault.jpg",
-      "published_at": "2024-12-28T18:00:19Z",
-      "video_length": "40:27"
     },
     {
       "name": "Suboptimal? No, sub optimal",
@@ -2568,6 +2563,422 @@
       "published_at": "2025-02-27T17:01:09Z",
       "video_length": "39:08",
       "playlist": "The Bazaar"
+    },
+    {
+      "name": "This isn't my tempo",
+      "url": "https://www.youtube.com/watch?v=KuFCXhWH1Dk",
+      "thumbnail": "https://i.ytimg.com/vi/KuFCXhWH1Dk/sddefault.jpg",
+      "published_at": "2025-02-28T18:00:28Z",
+      "video_length": "46:09",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The quality of quantity",
+      "url": "https://www.youtube.com/watch?v=Vh_WeebQUQY",
+      "thumbnail": "https://i.ytimg.com/vi/Vh_WeebQUQY/sddefault.jpg",
+      "published_at": "2025-02-28T17:00:40Z",
+      "video_length": "36:41",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Chat is this real",
+      "url": "https://www.youtube.com/watch?v=8GJ80qTVMhk",
+      "thumbnail": "https://i.ytimg.com/vi/8GJ80qTVMhk/sddefault.jpg",
+      "published_at": "2025-03-01T18:00:06Z",
+      "video_length": "52:52",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "He bangs the drum",
+      "url": "https://www.youtube.com/watch?v=VKlPiO0KgWs",
+      "thumbnail": "https://i.ytimg.com/vi/VKlPiO0KgWs/sddefault.jpg",
+      "published_at": "2025-03-01T17:00:35Z",
+      "video_length": "43:19",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "WHAT IF THE CLOAKLER WAS GREEN AND GOLD",
+      "url": "https://www.youtube.com/watch?v=S3ksKJ6-hoI",
+      "thumbnail": "https://i.ytimg.com/vi/S3ksKJ6-hoI/sddefault.jpg",
+      "published_at": "2025-03-02T18:00:19Z",
+      "video_length": "42:13",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Watch your step",
+      "url": "https://www.youtube.com/watch?v=ZqAJiZLnmNE",
+      "thumbnail": "https://i.ytimg.com/vi/ZqAJiZLnmNE/sddefault.jpg",
+      "published_at": "2025-03-02T17:00:40Z",
+      "video_length": "39:11",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Two clams? It's time to get shellfish",
+      "url": "https://www.youtube.com/watch?v=XBCDzhE8uy0",
+      "thumbnail": "https://i.ytimg.com/vi/XBCDzhE8uy0/sddefault.jpg",
+      "published_at": "2025-03-03T18:00:24Z",
+      "video_length": "37:14",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The one where he pivots",
+      "url": "https://www.youtube.com/watch?v=zKvLBNoraPk",
+      "thumbnail": "https://i.ytimg.com/vi/zKvLBNoraPk/sddefault.jpg",
+      "published_at": "2025-03-03T17:01:17Z",
+      "video_length": "29:08",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Why didn't I just take double barrel",
+      "url": "https://www.youtube.com/watch?v=bGWy3Oevs_8",
+      "thumbnail": "https://i.ytimg.com/vi/bGWy3Oevs_8/sddefault.jpg",
+      "published_at": "2025-03-04T18:00:34Z",
+      "video_length": "42:43",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Bro got the clusterbomb",
+      "url": "https://www.youtube.com/watch?v=LLXKQHs2pv4",
+      "thumbnail": "https://i.ytimg.com/vi/LLXKQHs2pv4/sddefault.jpg",
+      "published_at": "2025-03-04T17:00:21Z",
+      "video_length": "32:24",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Hit you with my best shot",
+      "url": "https://www.youtube.com/watch?v=dXFFOTVa56I",
+      "thumbnail": "https://i.ytimg.com/vi/dXFFOTVa56I/sddefault.jpg",
+      "published_at": "2025-03-05T18:00:28Z",
+      "video_length": "37:24",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The deadly blowfish",
+      "url": "https://www.youtube.com/watch?v=xfiuVJlIZO4",
+      "thumbnail": "https://i.ytimg.com/vi/xfiuVJlIZO4/sddefault.jpg",
+      "published_at": "2025-03-05T17:01:16Z",
+      "video_length": "37:02",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The GOAT is back",
+      "url": "https://www.youtube.com/watch?v=JWEyjcl_2uM",
+      "thumbnail": "https://i.ytimg.com/vi/JWEyjcl_2uM/sddefault.jpg",
+      "published_at": "2025-03-06T18:00:20Z",
+      "video_length": "38:43",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Better get used to it",
+      "url": "https://www.youtube.com/watch?v=aZUb3Bs9pzQ",
+      "thumbnail": "https://i.ytimg.com/vi/aZUb3Bs9pzQ/sddefault.jpg",
+      "published_at": "2025-03-06T17:00:01Z",
+      "video_length": "36:56",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "I've got another pearl",
+      "url": "https://www.youtube.com/watch?v=jsoKFPXI1t0",
+      "thumbnail": "https://i.ytimg.com/vi/jsoKFPXI1t0/sddefault.jpg",
+      "published_at": "2025-03-07T18:00:38Z",
+      "video_length": "48:40",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "It's all nice on spice all right",
+      "url": "https://www.youtube.com/watch?v=HTQ-zg1kuDc",
+      "thumbnail": "https://i.ytimg.com/vi/HTQ-zg1kuDc/sddefault.jpg",
+      "published_at": "2025-03-07T17:00:19Z",
+      "video_length": "38:06",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Live by the barrel",
+      "url": "https://www.youtube.com/watch?v=wgVs1pHyAk0",
+      "thumbnail": "https://i.ytimg.com/vi/wgVs1pHyAk0/sddefault.jpg",
+      "published_at": "2025-03-08T18:00:56Z",
+      "video_length": "41:49",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Where's my double barrel",
+      "url": "https://www.youtube.com/watch?v=Ymtjo3nl3nc",
+      "thumbnail": "https://i.ytimg.com/vi/Ymtjo3nl3nc/sddefault.jpg",
+      "published_at": "2025-03-08T17:00:41Z",
+      "video_length": "41:48",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The icy iceberg",
+      "url": "https://www.youtube.com/watch?v=LyKrXVu3p2g",
+      "thumbnail": "https://i.ytimg.com/vi/LyKrXVu3p2g/sddefault.jpg",
+      "published_at": "2025-03-09T17:00:31Z",
+      "video_length": "38:13",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "It's folded, it's tempered...it does its job",
+      "url": "https://www.youtube.com/watch?v=mZO-QfAsNTg",
+      "thumbnail": "https://i.ytimg.com/vi/mZO-QfAsNTg/sddefault.jpg",
+      "published_at": "2025-03-09T16:00:52Z",
+      "video_length": "33:26",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "What have I done",
+      "url": "https://www.youtube.com/watch?v=E2fZ15aClwU",
+      "thumbnail": "https://i.ytimg.com/vi/E2fZ15aClwU/sddefault.jpg",
+      "published_at": "2025-03-10T17:00:22Z",
+      "video_length": "43:39",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The skills that thrills",
+      "url": "https://www.youtube.com/watch?v=b9dnXrqtWm8",
+      "thumbnail": "https://i.ytimg.com/vi/b9dnXrqtWm8/sddefault.jpg",
+      "published_at": "2025-03-10T16:00:46Z",
+      "video_length": "44:39",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "I have erred",
+      "url": "https://www.youtube.com/watch?v=LTcf-6POfFE",
+      "thumbnail": "https://i.ytimg.com/vi/LTcf-6POfFE/sddefault.jpg",
+      "published_at": "2025-03-11T18:00:26Z",
+      "video_length": "28:44",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Where did you come from?",
+      "url": "https://www.youtube.com/watch?v=PJcVS4kiNrM",
+      "thumbnail": "https://i.ytimg.com/vi/PJcVS4kiNrM/sddefault.jpg",
+      "published_at": "2025-03-11T16:00:33Z",
+      "video_length": "36:36",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "You can't lose with this enchantment",
+      "url": "https://www.youtube.com/watch?v=cPur4EvAb8M",
+      "thumbnail": "https://i.ytimg.com/vi/cPur4EvAb8M/sddefault.jpg",
+      "published_at": "2025-03-14T16:00:48Z",
+      "video_length": "30:31",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The mogging ambergris",
+      "url": "https://www.youtube.com/watch?v=S1iSADEWUlU",
+      "thumbnail": "https://i.ytimg.com/vi/S1iSADEWUlU/sddefault.jpg",
+      "published_at": "2025-03-13T16:00:27Z",
+      "video_length": "43:04",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Swashbuckle that I wish you swash",
+      "url": "https://www.youtube.com/watch?v=2zHizsEAxyA",
+      "thumbnail": "https://i.ytimg.com/vi/2zHizsEAxyA/sddefault.jpg",
+      "published_at": "2025-03-12T16:00:07Z",
+      "video_length": "33:07",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "A lesson in mathematics",
+      "url": "https://www.youtube.com/watch?v=H_UI2wLAtfY",
+      "thumbnail": "https://i.ytimg.com/vi/H_UI2wLAtfY/sddefault.jpg",
+      "published_at": "2025-03-15T16:00:19Z",
+      "video_length": "35:23",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Make it snappy",
+      "url": "https://www.youtube.com/watch?v=nAq6s00B1SI",
+      "thumbnail": "https://i.ytimg.com/vi/nAq6s00B1SI/sddefault.jpg",
+      "published_at": "2025-03-16T16:00:59Z",
+      "video_length": "31:56",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Just a taste of haste",
+      "url": "https://www.youtube.com/watch?v=4AkiUqaZqs0",
+      "thumbnail": "https://i.ytimg.com/vi/4AkiUqaZqs0/sddefault.jpg",
+      "published_at": "2025-03-17T16:00:10Z",
+      "video_length": "39:03",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "He's playing the hits",
+      "url": "https://www.youtube.com/watch?v=kTzf30c_syM",
+      "thumbnail": "https://i.ytimg.com/vi/kTzf30c_syM/sddefault.jpg",
+      "published_at": "2025-03-18T16:00:59Z",
+      "video_length": "41:37",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "We are sous viding the competition",
+      "url": "https://www.youtube.com/watch?v=g9_JDVye910",
+      "thumbnail": "https://i.ytimg.com/vi/g9_JDVye910/sddefault.jpg",
+      "published_at": "2025-03-19T16:01:01Z",
+      "video_length": "38:11",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "It was ordained",
+      "url": "https://www.youtube.com/watch?v=QmKpuNff-88",
+      "thumbnail": "https://i.ytimg.com/vi/QmKpuNff-88/sddefault.jpg",
+      "published_at": "2025-03-20T16:00:26Z",
+      "video_length": "34:09",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Put the wins in the bag",
+      "url": "https://www.youtube.com/watch?v=asLrRX-FY6U",
+      "thumbnail": "https://i.ytimg.com/vi/asLrRX-FY6U/sddefault.jpg",
+      "published_at": "2025-03-21T16:00:04Z",
+      "video_length": "30:23",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "What foul magic has possessed thine jewels",
+      "url": "https://www.youtube.com/watch?v=lMlXy_Db20E",
+      "thumbnail": "https://i.ytimg.com/vi/lMlXy_Db20E/sddefault.jpg",
+      "published_at": "2025-03-22T16:00:59Z",
+      "video_length": "28:02",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Dance with the one that brought you",
+      "url": "https://www.youtube.com/watch?v=f4ZsirL_ThI",
+      "thumbnail": "https://i.ytimg.com/vi/f4ZsirL_ThI/sddefault.jpg",
+      "published_at": "2025-03-23T16:00:48Z",
+      "video_length": "48:03",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Hello old friend",
+      "url": "https://www.youtube.com/watch?v=IRzrwq-qHRI",
+      "thumbnail": "https://i.ytimg.com/vi/IRzrwq-qHRI/sddefault.jpg",
+      "published_at": "2025-03-24T16:00:29Z",
+      "video_length": "41:07",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "How could it not be on sight?",
+      "url": "https://www.youtube.com/watch?v=f6viSzJqV4U",
+      "thumbnail": "https://i.ytimg.com/vi/f6viSzJqV4U/sddefault.jpg",
+      "published_at": "2025-03-25T16:00:50Z",
+      "video_length": "40:53",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Bro got the tungsten pumpkin",
+      "url": "https://www.youtube.com/watch?v=TvKIwPzxhgg",
+      "thumbnail": "https://i.ytimg.com/vi/TvKIwPzxhgg/sddefault.jpg",
+      "published_at": "2025-03-26T16:00:29Z",
+      "video_length": "38:39",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Protect ya deck",
+      "url": "https://www.youtube.com/watch?v=K7dwszeGwp8",
+      "thumbnail": "https://i.ytimg.com/vi/K7dwszeGwp8/sddefault.jpg",
+      "published_at": "2025-03-27T16:00:24Z",
+      "video_length": "38:38",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The blubber has gone bad",
+      "url": "https://www.youtube.com/watch?v=iQrGw-JPE4Q",
+      "thumbnail": "https://i.ytimg.com/vi/iQrGw-JPE4Q/sddefault.jpg",
+      "published_at": "2025-03-28T16:01:01Z",
+      "video_length": "50:03",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "He's kinda clean with it",
+      "url": "https://www.youtube.com/watch?v=6bVsppc0fG8",
+      "thumbnail": "https://i.ytimg.com/vi/6bVsppc0fG8/sddefault.jpg",
+      "published_at": "2025-03-29T16:00:07Z",
+      "video_length": "34:48",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "It's like riding a bike",
+      "url": "https://www.youtube.com/watch?v=chl3NjC3dPM",
+      "thumbnail": "https://i.ytimg.com/vi/chl3NjC3dPM/sddefault.jpg",
+      "published_at": "2025-04-01T16:00:49Z",
+      "video_length": "31:59",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Keep it hot hot hot",
+      "url": "https://www.youtube.com/watch?v=yLJb__ZS9lo",
+      "thumbnail": "https://i.ytimg.com/vi/yLJb__ZS9lo/sddefault.jpg",
+      "published_at": "2025-04-02T16:01:20Z",
+      "video_length": "27:42",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Send it",
+      "url": "https://www.youtube.com/watch?v=GsmbU5Pt36g",
+      "thumbnail": "https://i.ytimg.com/vi/GsmbU5Pt36g/sddefault.jpg",
+      "published_at": "2025-04-03T16:00:17Z",
+      "video_length": "48:01",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "He's chonking them tbh",
+      "url": "https://www.youtube.com/watch?v=Zw0gQwkoLbM",
+      "thumbnail": "https://i.ytimg.com/vi/Zw0gQwkoLbM/sddefault.jpg",
+      "published_at": "2025-04-06T19:00:28Z",
+      "video_length": "51:24",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Oh, I get it now",
+      "url": "https://www.youtube.com/watch?v=mYWXOgcZ4b8",
+      "thumbnail": "https://i.ytimg.com/vi/mYWXOgcZ4b8/sddefault.jpg",
+      "published_at": "2025-04-06T16:01:01Z",
+      "video_length": "53:08",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Sorry that you don't get to do anything",
+      "url": "https://www.youtube.com/watch?v=vsIV0lvXSTw",
+      "thumbnail": "https://i.ytimg.com/vi/vsIV0lvXSTw/sddefault.jpg",
+      "published_at": "2025-04-05T19:00:37Z",
+      "video_length": "1:01:57",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "It heals but it also harms",
+      "url": "https://www.youtube.com/watch?v=IpMYaRW4zug",
+      "thumbnail": "https://i.ytimg.com/vi/IpMYaRW4zug/sddefault.jpg",
+      "published_at": "2025-04-05T16:00:20Z",
+      "video_length": "47:51",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "It's inevitable, bud",
+      "url": "https://www.youtube.com/watch?v=zmT_6fvrKuU",
+      "thumbnail": "https://i.ytimg.com/vi/zmT_6fvrKuU/sddefault.jpg",
+      "published_at": "2025-04-04T16:01:31Z",
+      "video_length": "45:55",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "THE ALCHEMIST",
+      "url": "https://www.youtube.com/watch?v=DFDuruF9nos",
+      "thumbnail": "https://i.ytimg.com/vi/DFDuruF9nos/sddefault.jpg",
+      "published_at": "2025-04-07T19:00:11Z",
+      "video_length": "1:07:21",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Mak is a bottle merchant",
+      "url": "https://www.youtube.com/watch?v=Brq5-O-O8hA",
+      "thumbnail": "https://i.ytimg.com/vi/Brq5-O-O8hA/sddefault.jpg",
+      "published_at": "2025-04-08T16:00:26Z",
+      "video_length": "45:33",
+      "playlist": "The Bazaar"
     }
   ],
   "The Executive": [
@@ -2611,67 +3022,91 @@
   ],
   "Trickshot Simulator": [
     {
-      "name": "I stand corrected",
-      "url": "https://www.youtube.com/watch?v=7I7riO6N0bw",
-      "thumbnail": "https://i.ytimg.com/vi/7I7riO6N0bw/maxresdefault.jpg",
-      "published_at": "2025-02-14T18:00:06Z",
-      "video_length": "3:13:28"
-    },
-    {
-      "name": "All right, this one might be impossible",
-      "url": "https://www.youtube.com/watch?v=HJsABuqK-vE",
-      "thumbnail": "https://i.ytimg.com/vi/HJsABuqK-vE/maxresdefault.jpg",
-      "published_at": "2025-02-15T18:00:12Z",
-      "video_length": "56:10"
-    },
-    {
-      "name": "Just put the cup in the cup mate",
-      "url": "https://www.youtube.com/watch?v=ahJCZU9iN6o",
-      "thumbnail": "https://i.ytimg.com/vi/ahJCZU9iN6o/maxresdefault.jpg",
-      "published_at": "2025-02-16T18:00:01Z",
-      "video_length": "53:50"
-    },
-    {
-      "name": "Donut ask me about the cups",
-      "url": "https://www.youtube.com/watch?v=YRiqqv5CIQs",
-      "thumbnail": "https://i.ytimg.com/vi/YRiqqv5CIQs/maxresdefault.jpg",
-      "published_at": "2025-02-17T18:00:34Z",
-      "video_length": "1:22:52"
-    },
-    {
-      "name": "How hard could it be?",
-      "url": "https://www.youtube.com/watch?v=sYDNpLPhr6M",
-      "thumbnail": "https://i.ytimg.com/vi/sYDNpLPhr6M/maxresdefault.jpg",
-      "published_at": "2025-02-18T18:00:47Z",
-      "video_length": "3:33:34"
-    },
-    {
-      "name": "I'm a cup merchant I fear",
-      "url": "https://www.youtube.com/watch?v=KnoeAKnoE2o",
-      "thumbnail": "https://i.ytimg.com/vi/KnoeAKnoE2o/maxresdefault.jpg",
-      "published_at": "2025-02-20T18:00:15Z",
-      "video_length": "5:00:18"
-    },
-    {
-      "name": "99% of trickshotters quit right before hitting their trickshot",
-      "url": "https://www.youtube.com/watch?v=bsi2i1OECj4",
-      "thumbnail": "https://i.ytimg.com/vi/bsi2i1OECj4/maxresdefault.jpg",
-      "published_at": "2025-02-21T18:00:30Z",
-      "video_length": "5:08:12"
-    },
-    {
-      "name": "Sometimes it's best not to say what's on your mind",
-      "url": "https://www.youtube.com/watch?v=kqVa8wYOIeA",
-      "thumbnail": "https://i.ytimg.com/vi/kqVa8wYOIeA/maxresdefault.jpg",
-      "published_at": "2025-02-22T18:00:38Z",
-      "video_length": "3:22:13"
-    },
-    {
       "name": "I kinda miss the chip and the cap",
       "url": "https://www.youtube.com/watch?v=ZA7IsSO2gig",
       "thumbnail": "https://i.ytimg.com/vi/ZA7IsSO2gig/maxresdefault.jpg",
       "published_at": "2025-02-23T18:00:31Z",
       "video_length": "1:32:02"
+    },
+    {
+      "name": "Just put the card in the clothespin",
+      "url": "https://www.youtube.com/watch?v=OuKoEtWCYYM",
+      "thumbnail": "https://i.ytimg.com/vi/OuKoEtWCYYM/sddefault.jpg",
+      "published_at": "2025-02-28T19:00:25Z",
+      "video_length": "2:32:38",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "Valedictorian at the school of hard knocks",
+      "url": "https://www.youtube.com/watch?v=5FUcPqitYJw",
+      "thumbnail": "https://i.ytimg.com/vi/5FUcPqitYJw/sddefault.jpg",
+      "published_at": "2025-03-01T19:00:04Z",
+      "video_length": "2:19:56",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "Thank you for your technical support",
+      "url": "https://www.youtube.com/watch?v=ConCeXSprgs",
+      "thumbnail": "https://i.ytimg.com/vi/ConCeXSprgs/sddefault.jpg",
+      "published_at": "2025-03-02T19:00:13Z",
+      "video_length": "2:18:45",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "He is going TikTok mode",
+      "url": "https://www.youtube.com/watch?v=h-Hf6NhChW4",
+      "thumbnail": "https://i.ytimg.com/vi/h-Hf6NhChW4/sddefault.jpg",
+      "published_at": "2025-03-03T19:00:33Z",
+      "video_length": "42:46",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "I've got some spin, if you wanna look in",
+      "url": "https://www.youtube.com/watch?v=VH4GY0ELuJY",
+      "thumbnail": "https://i.ytimg.com/vi/VH4GY0ELuJY/sddefault.jpg",
+      "published_at": "2025-03-06T19:00:31Z",
+      "video_length": "2:18:37",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "The bottle isn't real...it's us that must flip",
+      "url": "https://www.youtube.com/watch?v=3N7RXBkXD0U",
+      "thumbnail": "https://i.ytimg.com/vi/3N7RXBkXD0U/sddefault.jpg",
+      "published_at": "2025-03-07T19:00:02Z",
+      "video_length": "3:15:17",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "Play it by ear",
+      "url": "https://www.youtube.com/watch?v=KJZ2SQCfjB4",
+      "thumbnail": "https://i.ytimg.com/vi/KJZ2SQCfjB4/sddefault.jpg",
+      "published_at": "2025-03-08T19:00:21Z",
+      "video_length": "29:25",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "Just put the ball into the pot onto the box into the dinosaur onto the clip",
+      "url": "https://www.youtube.com/watch?v=OWVgBuqUhWY",
+      "thumbnail": "https://i.ytimg.com/vi/OWVgBuqUhWY/sddefault.jpg",
+      "published_at": "2025-03-09T18:00:16Z",
+      "video_length": "1:04:37",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "Northernlion crashes out on innocent chatter",
+      "url": "https://www.youtube.com/watch?v=yO6064aN_XE",
+      "thumbnail": "https://i.ytimg.com/vi/yO6064aN_XE/sddefault.jpg",
+      "published_at": "2025-03-11T17:01:09Z",
+      "video_length": "4:14:54",
+      "playlist": "Trickshot Simulator"
+    },
+    {
+      "name": "Put your headphones in for this one",
+      "url": "https://www.youtube.com/watch?v=PJDzaxRgds8",
+      "thumbnail": "https://i.ytimg.com/vi/PJDzaxRgds8/sddefault.jpg",
+      "published_at": "2025-03-12T17:00:33Z",
+      "video_length": "42:48",
+      "playlist": "Trickshot Simulator"
     }
   ],
   "Tyrants Realm": [
