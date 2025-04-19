@@ -1,36 +1,60 @@
 {
-  "Cine2Nerdle Battles": [
+  "Blue Prince": [
     {
-      "name": "The Comedy will never let us down",
-      "url": "https://www.youtube.com/watch?v=pWrJAWd_sWM",
-      "thumbnail": "https://i.ytimg.com/vi/pWrJAWd_sWM/sddefault.jpg",
-      "published_at": "2025-03-21T18:00:48Z",
-      "video_length": "33:00",
-      "playlist": "Cine2Nerdle Battles"
+      "name": "Is this 2025's Game of the Year?",
+      "url": "https://www.youtube.com/watch?v=-vEjIwS8IQg",
+      "thumbnail": "https://i.ytimg.com/vi/-vEjIwS8IQg/sddefault.jpg",
+      "published_at": "2025-04-12T17:00:00Z",
+      "video_length": "1:15:32",
+      "playlist": "Blue Prince"
     },
     {
-      "name": "OK I guess Inspector Gadget isn't a crime movie",
-      "url": "https://www.youtube.com/watch?v=XuECZhzqtbw",
-      "thumbnail": "https://i.ytimg.com/vi/XuECZhzqtbw/sddefault.jpg",
-      "published_at": "2025-03-23T18:00:17Z",
-      "video_length": "42:41",
-      "playlist": "Cine2Nerdle Battles"
+      "name": "Whoa, door city in here",
+      "url": "https://www.youtube.com/watch?v=10C9oc07cVo",
+      "thumbnail": "https://i.ytimg.com/vi/10C9oc07cVo/sddefault.jpg",
+      "published_at": "2025-04-13T17:00:02Z",
+      "video_length": "1:01:08",
+      "playlist": "Blue Prince"
     },
     {
-      "name": "Jason Lee sci-fi...you know it's on sight",
-      "url": "https://www.youtube.com/watch?v=4v8jDcBaElE",
-      "thumbnail": "https://i.ytimg.com/vi/4v8jDcBaElE/sddefault.jpg",
-      "published_at": "2025-03-25T18:00:03Z",
-      "video_length": "34:52",
-      "playlist": "Cine2Nerdle Battles"
+      "name": "Call me an architect the way I'm drawing rooms",
+      "url": "https://www.youtube.com/watch?v=ccmOxPHHvbw",
+      "thumbnail": "https://i.ytimg.com/vi/ccmOxPHHvbw/sddefault.jpg",
+      "published_at": "2025-04-14T17:00:54Z",
+      "video_length": "1:39:45",
+      "playlist": "Blue Prince"
     },
     {
-      "name": "Letterbox Larry has returned with a vengeance",
-      "url": "https://www.youtube.com/watch?v=ktS2zf038Z0",
-      "thumbnail": "https://i.ytimg.com/vi/ktS2zf038Z0/sddefault.jpg",
-      "published_at": "2025-03-27T18:00:37Z",
-      "video_length": "43:08",
-      "playlist": "Cine2Nerdle Battles"
+      "name": "In which I read you a bedtime story",
+      "url": "https://www.youtube.com/watch?v=skolAs89Slw",
+      "thumbnail": "https://i.ytimg.com/vi/skolAs89Slw/sddefault.jpg",
+      "published_at": "2025-04-15T17:01:07Z",
+      "video_length": "55:16",
+      "playlist": "Blue Prince"
+    },
+    {
+      "name": "I'm full of good ideas today",
+      "url": "https://www.youtube.com/watch?v=_qzyKqlQ7Qc",
+      "thumbnail": "https://i.ytimg.com/vi/_qzyKqlQ7Qc/sddefault.jpg",
+      "published_at": "2025-04-16T17:00:56Z",
+      "video_length": "55:44",
+      "playlist": "Blue Prince"
+    },
+    {
+      "name": "We are truly blessed",
+      "url": "https://www.youtube.com/watch?v=ciHChtB3lpw",
+      "thumbnail": "https://i.ytimg.com/vi/ciHChtB3lpw/sddefault.jpg",
+      "published_at": "2025-04-17T17:00:48Z",
+      "video_length": "44:36",
+      "playlist": "Blue Prince"
+    },
+    {
+      "name": "I'm officially forklift certified",
+      "url": "https://www.youtube.com/watch?v=moHggNGi4Q0",
+      "thumbnail": "https://i.ytimg.com/vi/moHggNGi4Q0/sddefault.jpg",
+      "published_at": "2025-04-18T17:01:04Z",
+      "video_length": "1:02:13",
+      "playlist": "Blue Prince"
     }
   ],
   "Clank": [
@@ -134,20 +158,6 @@
   ],
   "Jackbox": [
     {
-      "name": "After you Blather, you gotta rinse",
-      "url": "https://www.youtube.com/watch?v=vor-BRiT9iI",
-      "thumbnail": "https://i.ytimg.com/vi/vor-BRiT9iI/maxresdefault.jpg",
-      "published_at": "2025-01-27T21:00:44Z",
-      "video_length": "59:39"
-    },
-    {
-      "name": "BEP",
-      "url": "https://www.youtube.com/watch?v=y0NxteLTtBw",
-      "thumbnail": "https://i.ytimg.com/vi/y0NxteLTtBw/maxresdefault.jpg",
-      "published_at": "2025-01-28T21:00:55Z",
-      "video_length": "50:57"
-    },
-    {
       "name": "It's kind of similar to Simon and the Chipmunks",
       "url": "https://www.youtube.com/watch?v=tgnasbrDI4k",
       "thumbnail": "https://i.ytimg.com/vi/tgnasbrDI4k/maxresdefault.jpg",
@@ -205,6 +215,14 @@
       "thumbnail": "https://i.ytimg.com/vi/gyQEKqF2bSk/sddefault.jpg",
       "published_at": "2025-04-08T20:00:23Z",
       "video_length": "1:43:04",
+      "playlist": "Lonestar"
+    },
+    {
+      "name": "They said a cat can't fly a spaceship",
+      "url": "https://www.youtube.com/watch?v=rGpYiWKeR54",
+      "thumbnail": "https://i.ytimg.com/vi/rGpYiWKeR54/sddefault.jpg",
+      "published_at": "2025-04-09T20:00:24Z",
+      "video_length": "1:18:31",
       "playlist": "Lonestar"
     }
   ],
@@ -694,6 +712,22 @@
       "published_at": "2025-04-08T18:00:07Z",
       "video_length": "1:28:40",
       "playlist": "Miscellaneous"
+    },
+    {
+      "name": "I'm in your walls",
+      "url": "https://www.youtube.com/watch?v=JBk6PNUih0g",
+      "thumbnail": "https://i.ytimg.com/vi/JBk6PNUih0g/sddefault.jpg",
+      "published_at": "2025-04-10T18:00:31Z",
+      "video_length": "1:19:30",
+      "playlist": "Miscellaneous"
+    },
+    {
+      "name": "It came to me in a dream",
+      "url": "https://www.youtube.com/watch?v=YynYgahKoHo",
+      "thumbnail": "https://i.ytimg.com/vi/YynYgahKoHo/sddefault.jpg",
+      "published_at": "2025-04-16T17:00:49Z",
+      "video_length": "1:09:34",
+      "playlist": "Miscellaneous"
     }
   ],
   "Nintendo World Championships: NES Edition": [
@@ -734,30 +768,6 @@
     }
   ],
   "Nubby's Number Factory": [
-    {
-      "name": "Jake the GOAT fr",
-      "url": "https://www.youtube.com/watch?v=2694tRR46vE",
-      "thumbnail": "https://i.ytimg.com/vi/2694tRR46vE/sddefault.jpg",
-      "published_at": "2025-03-18T20:00:01Z",
-      "video_length": "46:05",
-      "playlist": "Nubby's Number Factory"
-    },
-    {
-      "name": "Putting the Ohno in Apollo Ohno",
-      "url": "https://www.youtube.com/watch?v=bwDeA3488tA",
-      "thumbnail": "https://i.ytimg.com/vi/bwDeA3488tA/sddefault.jpg",
-      "published_at": "2025-03-20T20:00:21Z",
-      "video_length": "46:56",
-      "playlist": "Nubby's Number Factory"
-    },
-    {
-      "name": "The hardest challenge in Nubby history",
-      "url": "https://www.youtube.com/watch?v=dMFBo5xirv4",
-      "thumbnail": "https://i.ytimg.com/vi/dMFBo5xirv4/sddefault.jpg",
-      "published_at": "2025-03-22T20:00:18Z",
-      "video_length": "23:39",
-      "playlist": "Nubby's Number Factory"
-    },
     {
       "name": "It runs in the family",
       "url": "https://www.youtube.com/watch?v=YdJG4HL-2Gc",
@@ -860,6 +870,78 @@
       "thumbnail": "https://i.ytimg.com/vi/6q4nwOuadyA/sddefault.jpg",
       "published_at": "2025-04-08T20:00:06Z",
       "video_length": "39:43",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "You gotta be kitten me",
+      "url": "https://www.youtube.com/watch?v=e_Ku6WyPwmg",
+      "thumbnail": "https://i.ytimg.com/vi/e_Ku6WyPwmg/sddefault.jpg",
+      "published_at": "2025-04-10T20:00:22Z",
+      "video_length": "35:58",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "It is the hardest letter in the alphabet folks",
+      "url": "https://www.youtube.com/watch?v=g8pZpUEuwXw",
+      "thumbnail": "https://i.ytimg.com/vi/g8pZpUEuwXw/sddefault.jpg",
+      "published_at": "2025-04-09T20:00:23Z",
+      "video_length": "36:42",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "I will never forgive Jake",
+      "url": "https://www.youtube.com/watch?v=BaBPFBdaxyQ",
+      "thumbnail": "https://i.ytimg.com/vi/BaBPFBdaxyQ/sddefault.jpg",
+      "published_at": "2025-04-11T20:00:16Z",
+      "video_length": "59:20",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "You only get one shot",
+      "url": "https://www.youtube.com/watch?v=HZJkOcvgngk",
+      "thumbnail": "https://i.ytimg.com/vi/HZJkOcvgngk/sddefault.jpg",
+      "published_at": "2025-04-12T20:00:07Z",
+      "video_length": "1:19:12",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "This is squid gaming",
+      "url": "https://www.youtube.com/watch?v=cUIqhrG60aQ",
+      "thumbnail": "https://i.ytimg.com/vi/cUIqhrG60aQ/sddefault.jpg",
+      "published_at": "2025-04-13T20:00:31Z",
+      "video_length": "41:01",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "It was guaranteed",
+      "url": "https://www.youtube.com/watch?v=dnTXRjBXrmQ",
+      "thumbnail": "https://i.ytimg.com/vi/dnTXRjBXrmQ/sddefault.jpg",
+      "published_at": "2025-04-14T20:00:24Z",
+      "video_length": "56:48",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "Keep my water bears out your mouth",
+      "url": "https://www.youtube.com/watch?v=-lO-rP_uAKQ",
+      "thumbnail": "https://i.ytimg.com/vi/-lO-rP_uAKQ/sddefault.jpg",
+      "published_at": "2025-04-15T20:00:00Z",
+      "video_length": "1:06:49",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "It's the easiest hard challenge ever?",
+      "url": "https://www.youtube.com/watch?v=z3leNuPzngc",
+      "thumbnail": "https://i.ytimg.com/vi/z3leNuPzngc/sddefault.jpg",
+      "published_at": "2025-04-16T20:00:48Z",
+      "video_length": "27:55",
+      "playlist": "Nubby's Number Factory"
+    },
+    {
+      "name": "All right, this one might actually be impossible...",
+      "url": "https://www.youtube.com/watch?v=hZGvTvdNbMA",
+      "thumbnail": "https://i.ytimg.com/vi/hZGvTvdNbMA/sddefault.jpg",
+      "published_at": "2025-04-17T20:00:33Z",
+      "video_length": "53:33",
       "playlist": "Nubby's Number Factory"
     }
   ],
@@ -1969,32 +2051,6 @@
       "playlist": "Sultan's Game"
     }
   ],
-  "Super Mario Party Jamboree": [
-    {
-      "name": "I'm for real taking big donut though",
-      "url": "https://www.youtube.com/watch?v=Y4LbJgm6fbE",
-      "thumbnail": "https://i.ytimg.com/vi/Y4LbJgm6fbE/sddefault.jpg",
-      "published_at": "2025-03-19T20:00:30Z",
-      "video_length": "3:15:08",
-      "playlist": "Super Mario Party Jamboree"
-    },
-    {
-      "name": "You have to cut it on the bias",
-      "url": "https://www.youtube.com/watch?v=4VLltmWChQ0",
-      "thumbnail": "https://i.ytimg.com/vi/4VLltmWChQ0/sddefault.jpg",
-      "published_at": "2025-03-21T20:00:04Z",
-      "video_length": "1:26:51",
-      "playlist": "Super Mario Party Jamboree"
-    },
-    {
-      "name": "Finally the discussion we've all been waiting for",
-      "url": "https://www.youtube.com/watch?v=rzN6RZPkHoc",
-      "thumbnail": "https://i.ytimg.com/vi/rzN6RZPkHoc/sddefault.jpg",
-      "published_at": "2025-04-05T18:00:40Z",
-      "video_length": "2:25:11",
-      "playlist": "Super Mario Party Jamboree"
-    }
-  ],
   "Supervive": [
     {
       "name": "They needed me to carry them",
@@ -2029,81 +2085,11 @@
   ],
   "The Bazaar": [
     {
-      "name": "This one might look a little familiar",
-      "url": "https://www.youtube.com/watch?v=W3M-d5Pkc0w",
-      "thumbnail": "https://i.ytimg.com/vi/W3M-d5Pkc0w/maxresdefault.jpg",
-      "published_at": "2024-12-28T19:00:19Z",
-      "video_length": "51:54"
-    },
-    {
-      "name": "Suboptimal? No, sub optimal",
-      "url": "https://www.youtube.com/watch?v=UgB9MqrQD3w",
-      "thumbnail": "https://i.ytimg.com/vi/UgB9MqrQD3w/maxresdefault.jpg",
-      "published_at": "2024-12-29T19:00:23Z",
-      "video_length": "1:17:52"
-    },
-    {
-      "name": "Buckle up",
-      "url": "https://www.youtube.com/watch?v=9x6UaccG8vE",
-      "thumbnail": "https://i.ytimg.com/vi/9x6UaccG8vE/maxresdefault.jpg",
-      "published_at": "2024-12-29T18:00:05Z",
-      "video_length": "25:58"
-    },
-    {
-      "name": "Imagine this thing was Jeballian",
-      "url": "https://www.youtube.com/watch?v=X8Rxj9bFI3Q",
-      "thumbnail": "https://i.ytimg.com/vi/X8Rxj9bFI3Q/maxresdefault.jpg",
-      "published_at": "2024-12-30T19:00:30Z",
-      "video_length": "42:10"
-    },
-    {
-      "name": "Pay up",
-      "url": "https://www.youtube.com/watch?v=2JN8MB-FUoc",
-      "thumbnail": "https://i.ytimg.com/vi/2JN8MB-FUoc/maxresdefault.jpg",
-      "published_at": "2024-12-30T18:00:04Z",
-      "video_length": "45:25"
-    },
-    {
-      "name": "The bushel of legend",
-      "url": "https://www.youtube.com/watch?v=WuMz-j9Ly2M",
-      "thumbnail": "https://i.ytimg.com/vi/WuMz-j9Ly2M/maxresdefault.jpg",
-      "published_at": "2024-12-31T19:00:17Z",
-      "video_length": "1:00:10"
-    },
-    {
-      "name": "Upgrades? Overrated.",
-      "url": "https://www.youtube.com/watch?v=2T772hickFQ",
-      "thumbnail": "https://i.ytimg.com/vi/2T772hickFQ/maxresdefault.jpg",
-      "published_at": "2024-12-31T18:00:02Z",
-      "video_length": "36:40"
-    },
-    {
       "name": "We got a spaceship, what could go wrong?",
       "url": "https://www.youtube.com/watch?v=n9tw36Yk7xw",
       "thumbnail": "https://i.ytimg.com/vi/n9tw36Yk7xw/maxresdefault.jpg",
       "published_at": "2025-01-02T19:00:33Z",
       "video_length": "41:16"
-    },
-    {
-      "name": "I'm choking",
-      "url": "https://www.youtube.com/watch?v=e2182ndKUYo",
-      "thumbnail": "https://i.ytimg.com/vi/e2182ndKUYo/maxresdefault.jpg",
-      "published_at": "2025-01-02T18:00:25Z",
-      "video_length": "24:32"
-    },
-    {
-      "name": "Call me David Bowie the way my dogs are diamond",
-      "url": "https://www.youtube.com/watch?v=IS1ywUFjl2k",
-      "thumbnail": "https://i.ytimg.com/vi/IS1ywUFjl2k/maxresdefault.jpg",
-      "published_at": "2025-01-01T19:00:15Z",
-      "video_length": "58:10"
-    },
-    {
-      "name": "Millions of leeches, leeches for me",
-      "url": "https://www.youtube.com/watch?v=bSMBBaweDVs",
-      "thumbnail": "https://i.ytimg.com/vi/bSMBBaweDVs/maxresdefault.jpg",
-      "published_at": "2025-01-01T18:00:23Z",
-      "video_length": "35:28"
     },
     {
       "name": "Is this item a joke?",
@@ -2979,6 +2965,94 @@
       "published_at": "2025-04-08T16:00:26Z",
       "video_length": "45:33",
       "playlist": "The Bazaar"
+    },
+    {
+      "name": "SUBMIT BUG REPORT PLEASE",
+      "url": "https://www.youtube.com/watch?v=Z3wE38fcRa4",
+      "thumbnail": "https://i.ytimg.com/vi/Z3wE38fcRa4/sddefault.jpg",
+      "published_at": "2025-04-10T16:00:49Z",
+      "video_length": "49:03",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "More toxic than solo queue League of Legends",
+      "url": "https://www.youtube.com/watch?v=FaW5amQzyvY",
+      "thumbnail": "https://i.ytimg.com/vi/FaW5amQzyvY/sddefault.jpg",
+      "published_at": "2025-04-09T16:00:20Z",
+      "video_length": "1:06:15",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The flywheel is starting any second now",
+      "url": "https://www.youtube.com/watch?v=e3pF0CIfof8",
+      "thumbnail": "https://i.ytimg.com/vi/e3pF0CIfof8/sddefault.jpg",
+      "published_at": "2025-04-11T16:01:07Z",
+      "video_length": "47:55",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Forget recycling, we need the other type of bin",
+      "url": "https://www.youtube.com/watch?v=Kk1xXjJPcc0",
+      "thumbnail": "https://i.ytimg.com/vi/Kk1xXjJPcc0/sddefault.jpg",
+      "published_at": "2025-04-12T16:00:26Z",
+      "video_length": "38:02",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Keep their heads ringing",
+      "url": "https://www.youtube.com/watch?v=fugpHDBUKfM",
+      "thumbnail": "https://i.ytimg.com/vi/fugpHDBUKfM/sddefault.jpg",
+      "published_at": "2025-04-13T16:01:03Z",
+      "video_length": "1:02:28",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "When she asks you \"what's your type?\"",
+      "url": "https://www.youtube.com/watch?v=MIXYg4ETbLI",
+      "thumbnail": "https://i.ytimg.com/vi/MIXYg4ETbLI/sddefault.jpg",
+      "published_at": "2025-04-14T16:00:29Z",
+      "video_length": "38:32",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "I can't handle the juice",
+      "url": "https://www.youtube.com/watch?v=5YXWkDWGrKY",
+      "thumbnail": "https://i.ytimg.com/vi/5YXWkDWGrKY/sddefault.jpg",
+      "published_at": "2025-04-15T16:00:08Z",
+      "video_length": "33:13",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Let's turn it up",
+      "url": "https://www.youtube.com/watch?v=st5OzMHHScU",
+      "thumbnail": "https://i.ytimg.com/vi/st5OzMHHScU/sddefault.jpg",
+      "published_at": "2025-04-16T16:01:20Z",
+      "video_length": "1:05:03",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "It's not for nothing it's for karma",
+      "url": "https://www.youtube.com/watch?v=VWxbWIGcfXc",
+      "thumbnail": "https://i.ytimg.com/vi/VWxbWIGcfXc/sddefault.jpg",
+      "published_at": "2025-04-17T19:00:33Z",
+      "video_length": "57:47",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "They really hated broke boys in the 2000s",
+      "url": "https://www.youtube.com/watch?v=CHwB1mQi_u4",
+      "thumbnail": "https://i.ytimg.com/vi/CHwB1mQi_u4/sddefault.jpg",
+      "published_at": "2025-04-18T19:00:19Z",
+      "video_length": "43:30",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Three alarm chili build",
+      "url": "https://www.youtube.com/watch?v=i-q7Borbc0A",
+      "thumbnail": "https://i.ytimg.com/vi/i-q7Borbc0A/sddefault.jpg",
+      "published_at": "2025-04-18T16:01:12Z",
+      "video_length": "43:05",
+      "playlist": "The Bazaar"
     }
   ],
   "The Executive": [
@@ -3021,13 +3095,6 @@
     }
   ],
   "Trickshot Simulator": [
-    {
-      "name": "I kinda miss the chip and the cap",
-      "url": "https://www.youtube.com/watch?v=ZA7IsSO2gig",
-      "thumbnail": "https://i.ytimg.com/vi/ZA7IsSO2gig/maxresdefault.jpg",
-      "published_at": "2025-02-23T18:00:31Z",
-      "video_length": "1:32:02"
-    },
     {
       "name": "Just put the card in the clothespin",
       "url": "https://www.youtube.com/watch?v=OuKoEtWCYYM",
@@ -3428,6 +3495,24 @@
       "thumbnail": "https://i.ytimg.com/vi/syCpsmvtYyM/maxresdefault.jpg",
       "published_at": "2024-11-28T18:00:35Z",
       "video_length": "30:09"
+    }
+  ],
+  "[Missing]": [
+    {
+      "name": "maybe your genes are sick of you too, buddy",
+      "url": "https://www.youtube.com/watch?v=VKV2g8cV0GI",
+      "thumbnail": "https://i.ytimg.com/vi/VKV2g8cV0GI/sddefault.jpg",
+      "published_at": "2025-04-18T13:00:58Z",
+      "video_length": "0:30",
+      "playlist": "[Missing]"
+    },
+    {
+      "name": "\"plot hole\" Andys when a real \"it passes the vibe check\" cinema enjoyer shows up",
+      "url": "https://www.youtube.com/watch?v=afEgKXP2AXI",
+      "thumbnail": "https://i.ytimg.com/vi/afEgKXP2AXI/sddefault.jpg",
+      "published_at": "2025-04-18T01:00:03Z",
+      "video_length": "0:29",
+      "playlist": "[Missing]"
     }
   ]
 }
