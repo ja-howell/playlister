@@ -110,7 +110,11 @@ func GetVideosSince(c Client, lastCollectionDate string) ([]models.Video, error)
 				done = true
 				break
 			}
-			videos = append(videos, getVideo(c, snippet))
+			newVideo := getVideo(c, snippet)
+			// filters out videos shorter than 10 minutes
+			if len(newVideo.VideoLength) > 4 {
+				videos = append(videos, newVideo)
+			}
 		}
 		next = videoclient.PageToken(response.NextPageToken)
 	}
@@ -125,6 +129,7 @@ func getVideo(c Client, snippet videoclient.Snippet) models.Video {
 		log.Printf("Failed to create video length: %v", err)
 	}
 	video.VideoLength = videoLength
+
 	video.Playlist, video.Name = parsePlaylistFromName(video.Name)
 	return video
 }
