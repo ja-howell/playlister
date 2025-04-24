@@ -1,30 +1,6 @@
 {
   "Blue Prince": [
     {
-      "name": "Is this 2025's Game of the Year?",
-      "url": "https://www.youtube.com/watch?v=-vEjIwS8IQg",
-      "thumbnail": "https://i.ytimg.com/vi/-vEjIwS8IQg/sddefault.jpg",
-      "published_at": "2025-04-12T17:00:00Z",
-      "video_length": "1:15:32",
-      "playlist": "Blue Prince"
-    },
-    {
-      "name": "Whoa, door city in here",
-      "url": "https://www.youtube.com/watch?v=10C9oc07cVo",
-      "thumbnail": "https://i.ytimg.com/vi/10C9oc07cVo/sddefault.jpg",
-      "published_at": "2025-04-13T17:00:02Z",
-      "video_length": "1:01:08",
-      "playlist": "Blue Prince"
-    },
-    {
-      "name": "Call me an architect the way I'm drawing rooms",
-      "url": "https://www.youtube.com/watch?v=ccmOxPHHvbw",
-      "thumbnail": "https://i.ytimg.com/vi/ccmOxPHHvbw/sddefault.jpg",
-      "published_at": "2025-04-14T17:00:54Z",
-      "video_length": "1:39:45",
-      "playlist": "Blue Prince"
-    },
-    {
       "name": "In which I read you a bedtime story",
       "url": "https://www.youtube.com/watch?v=skolAs89Slw",
       "thumbnail": "https://i.ytimg.com/vi/skolAs89Slw/sddefault.jpg",
@@ -54,6 +30,38 @@
       "thumbnail": "https://i.ytimg.com/vi/moHggNGi4Q0/sddefault.jpg",
       "published_at": "2025-04-18T17:01:04Z",
       "video_length": "1:02:13",
+      "playlist": "Blue Prince"
+    },
+    {
+      "name": "The whole ball of yarn is starting to unravel",
+      "url": "https://www.youtube.com/watch?v=_xzFyN7-1Ps",
+      "thumbnail": "https://i.ytimg.com/vi/_xzFyN7-1Ps/sddefault.jpg",
+      "published_at": "2025-04-19T17:00:51Z",
+      "video_length": "1:39:30",
+      "playlist": "Blue Prince"
+    },
+    {
+      "name": "I don't wanna talk to a scientist",
+      "url": "https://www.youtube.com/watch?v=HLjTH0fyDng",
+      "thumbnail": "https://i.ytimg.com/vi/HLjTH0fyDng/sddefault.jpg",
+      "published_at": "2025-04-20T17:00:17Z",
+      "video_length": "1:03:48",
+      "playlist": "Blue Prince"
+    },
+    {
+      "name": "He's going Giovanni Ribisi mode",
+      "url": "https://www.youtube.com/watch?v=yEIgBWoBHeQ",
+      "thumbnail": "https://i.ytimg.com/vi/yEIgBWoBHeQ/sddefault.jpg",
+      "published_at": "2025-04-21T17:01:12Z",
+      "video_length": "1:16:59",
+      "playlist": "Blue Prince"
+    },
+    {
+      "name": "This one was a bit of a marathon",
+      "url": "https://www.youtube.com/watch?v=l580x-vEoEE",
+      "thumbnail": "https://i.ytimg.com/vi/l580x-vEoEE/sddefault.jpg",
+      "published_at": "2025-04-22T17:00:59Z",
+      "video_length": "2:12:32",
       "playlist": "Blue Prince"
     }
   ],
@@ -157,29 +165,6 @@
     }
   ],
   "Jackbox": [
-    {
-      "name": "It's kind of similar to Simon and the Chipmunks",
-      "url": "https://www.youtube.com/watch?v=tgnasbrDI4k",
-      "thumbnail": "https://i.ytimg.com/vi/tgnasbrDI4k/maxresdefault.jpg",
-      "published_at": "2025-02-03T19:00:39Z",
-      "video_length": "1:23:41"
-    },
-    {
-      "name": "Coworker Jackbox",
-      "url": "https://www.youtube.com/watch?v=Ky5hmesgyQY",
-      "thumbnail": "https://i.ytimg.com/vi/Ky5hmesgyQY/sddefault.jpg",
-      "published_at": "2025-03-05T21:00:18Z",
-      "video_length": "1:02:00",
-      "playlist": "Jackbox"
-    },
-    {
-      "name": "You're not beating me at the grocery game",
-      "url": "https://www.youtube.com/watch?v=ze_yIoArzQc",
-      "thumbnail": "https://i.ytimg.com/vi/ze_yIoArzQc/sddefault.jpg",
-      "published_at": "2025-03-06T21:00:46Z",
-      "video_length": "55:34",
-      "playlist": "Jackbox"
-    },
     {
       "name": "They really do be Blathering",
       "url": "https://www.youtube.com/watch?v=EHlelu0bWzU",
@@ -768,14 +753,6 @@
     }
   ],
   "Nubby's Number Factory": [
-    {
-      "name": "It runs in the family",
-      "url": "https://www.youtube.com/watch?v=YdJG4HL-2Gc",
-      "thumbnail": "https://i.ytimg.com/vi/YdJG4HL-2Gc/sddefault.jpg",
-      "published_at": "2025-03-24T20:00:18Z",
-      "video_length": "40:55",
-      "playlist": "Nubby's Number Factory"
-    },
     {
       "name": "None of these words are in the bible",
       "url": "https://www.youtube.com/watch?v=9MYlFFgr2qQ",
@@ -2085,27 +2062,6 @@
   ],
   "The Bazaar": [
     {
-      "name": "We got a spaceship, what could go wrong?",
-      "url": "https://www.youtube.com/watch?v=n9tw36Yk7xw",
-      "thumbnail": "https://i.ytimg.com/vi/n9tw36Yk7xw/maxresdefault.jpg",
-      "published_at": "2025-01-02T19:00:33Z",
-      "video_length": "41:16"
-    },
-    {
-      "name": "Is this item a joke?",
-      "url": "https://www.youtube.com/watch?v=k8eFhdjMGMQ",
-      "thumbnail": "https://i.ytimg.com/vi/k8eFhdjMGMQ/maxresdefault.jpg",
-      "published_at": "2025-01-03T19:00:33Z",
-      "video_length": "44:28"
-    },
-    {
-      "name": "These boots were made for pogging",
-      "url": "https://www.youtube.com/watch?v=ax4FkhWAIIo",
-      "thumbnail": "https://i.ytimg.com/vi/ax4FkhWAIIo/maxresdefault.jpg",
-      "published_at": "2025-01-04T19:00:01Z",
-      "video_length": "41:31"
-    },
-    {
       "name": "What the shell",
       "url": "https://www.youtube.com/watch?v=H6Wvx4QKKjk",
       "thumbnail": "https://i.ytimg.com/vi/H6Wvx4QKKjk/maxresdefault.jpg",
@@ -3053,6 +3009,38 @@
       "published_at": "2025-04-18T16:01:12Z",
       "video_length": "43:05",
       "playlist": "The Bazaar"
+    },
+    {
+      "name": "Eating shrimp with the wimps",
+      "url": "https://www.youtube.com/watch?v=8oDI6ppw8P8",
+      "thumbnail": "https://i.ytimg.com/vi/8oDI6ppw8P8/sddefault.jpg",
+      "published_at": "2025-04-19T16:00:21Z",
+      "video_length": "40:57",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "Don't blame the messenger",
+      "url": "https://www.youtube.com/watch?v=rQifU-fe-Us",
+      "thumbnail": "https://i.ytimg.com/vi/rQifU-fe-Us/sddefault.jpg",
+      "published_at": "2025-04-20T16:01:14Z",
+      "video_length": "34:36",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "The multiplyer",
+      "url": "https://www.youtube.com/watch?v=mvhCj1-HrAg",
+      "thumbnail": "https://i.ytimg.com/vi/mvhCj1-HrAg/sddefault.jpg",
+      "published_at": "2025-04-21T16:01:12Z",
+      "video_length": "40:36",
+      "playlist": "The Bazaar"
+    },
+    {
+      "name": "That's an ice enchantment",
+      "url": "https://www.youtube.com/watch?v=19TXMpCKER0",
+      "thumbnail": "https://i.ytimg.com/vi/19TXMpCKER0/sddefault.jpg",
+      "published_at": "2025-04-22T16:00:06Z",
+      "video_length": "36:42",
+      "playlist": "The Bazaar"
     }
   ],
   "The Executive": [
@@ -3095,30 +3083,6 @@
     }
   ],
   "Trickshot Simulator": [
-    {
-      "name": "Just put the card in the clothespin",
-      "url": "https://www.youtube.com/watch?v=OuKoEtWCYYM",
-      "thumbnail": "https://i.ytimg.com/vi/OuKoEtWCYYM/sddefault.jpg",
-      "published_at": "2025-02-28T19:00:25Z",
-      "video_length": "2:32:38",
-      "playlist": "Trickshot Simulator"
-    },
-    {
-      "name": "Valedictorian at the school of hard knocks",
-      "url": "https://www.youtube.com/watch?v=5FUcPqitYJw",
-      "thumbnail": "https://i.ytimg.com/vi/5FUcPqitYJw/sddefault.jpg",
-      "published_at": "2025-03-01T19:00:04Z",
-      "video_length": "2:19:56",
-      "playlist": "Trickshot Simulator"
-    },
-    {
-      "name": "Thank you for your technical support",
-      "url": "https://www.youtube.com/watch?v=ConCeXSprgs",
-      "thumbnail": "https://i.ytimg.com/vi/ConCeXSprgs/sddefault.jpg",
-      "published_at": "2025-03-02T19:00:13Z",
-      "video_length": "2:18:45",
-      "playlist": "Trickshot Simulator"
-    },
     {
       "name": "He is going TikTok mode",
       "url": "https://www.youtube.com/watch?v=h-Hf6NhChW4",
@@ -3499,19 +3463,43 @@
   ],
   "[Missing]": [
     {
-      "name": "maybe your genes are sick of you too, buddy",
-      "url": "https://www.youtube.com/watch?v=VKV2g8cV0GI",
-      "thumbnail": "https://i.ytimg.com/vi/VKV2g8cV0GI/sddefault.jpg",
-      "published_at": "2025-04-18T13:00:58Z",
-      "video_length": "0:30",
+      "name": "You cant script it any better The Bazaar",
+      "url": "https://www.youtube.com/watch?v=uvFk7TQIfzQ",
+      "thumbnail": "https://i.ytimg.com/vi/uvFk7TQIfzQ/sddefault.jpg",
+      "published_at": "2025-04-19T19:00:53Z",
+      "video_length": "47:06",
       "playlist": "[Missing]"
     },
     {
-      "name": "\"plot hole\" Andys when a real \"it passes the vibe check\" cinema enjoyer shows up",
-      "url": "https://www.youtube.com/watch?v=afEgKXP2AXI",
-      "thumbnail": "https://i.ytimg.com/vi/afEgKXP2AXI/sddefault.jpg",
-      "published_at": "2025-04-18T01:00:03Z",
-      "video_length": "0:29",
+      "name": "Reach for the sky again The Bazaar",
+      "url": "https://www.youtube.com/watch?v=8oGkpt9hyQ4",
+      "thumbnail": "https://i.ytimg.com/vi/8oGkpt9hyQ4/sddefault.jpg",
+      "published_at": "2025-04-20T19:00:11Z",
+      "video_length": "43:25",
+      "playlist": "[Missing]"
+    },
+    {
+      "name": "how you feel about animal crossing is how you feel about existence",
+      "url": "https://www.youtube.com/watch?v=k7KRMpCuIqI",
+      "thumbnail": "https://i.ytimg.com/vi/k7KRMpCuIqI/sddefault.jpg",
+      "published_at": "2025-04-20T13:01:25Z",
+      "video_length": "0:22",
+      "playlist": "[Missing]"
+    },
+    {
+      "name": "The board that doesnt do anything The Bazaar",
+      "url": "https://www.youtube.com/watch?v=Dm7lbfREmmo",
+      "thumbnail": "https://i.ytimg.com/vi/Dm7lbfREmmo/sddefault.jpg",
+      "published_at": "2025-04-21T19:00:18Z",
+      "video_length": "35:56",
+      "playlist": "[Missing]"
+    },
+    {
+      "name": "They thought me mad The Bazaar",
+      "url": "https://www.youtube.com/watch?v=8SdNJ7jSTs8",
+      "thumbnail": "https://i.ytimg.com/vi/8SdNJ7jSTs8/sddefault.jpg",
+      "published_at": "2025-04-22T19:00:07Z",
+      "video_length": "47:54",
       "playlist": "[Missing]"
     }
   ]
