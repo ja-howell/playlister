@@ -31,16 +31,20 @@ func main() {
 }
 
 func run() error {
-	apiKey, err := getAPIKey()
-	if err != nil {
-		return fmt.Errorf("failed to get API Key: %w", err)
-	}
-	client := videoclient.New(apiKey)
-
 	config, err := newConfig(configPath)
 	if err != nil {
 		return fmt.Errorf("failed to create config: %w", err)
 	}
+
+	apiKey := config.APIKey
+	if apiKey == "" {
+		apiKey, err = getAPIKey()
+		if err != nil {
+			return fmt.Errorf("failed to get API Key: %w", err)
+		}
+	}
+
+	client := videoclient.New(apiKey)
 
 	database, err := newDatabase(databasePath)
 	if err != nil {

@@ -9,6 +9,7 @@ import (
 
 type Config struct {
 	PlaylistID         string   `json:"playlist_id,omitempty"`
+	APIKey             string   `json:"api_key`
 	IgnoredPlaylists   []string `json:"ignored_playlists,omitempty"`
 	LastCollectionDate string   `json:"last_collection_date,omitempty"`
 }
