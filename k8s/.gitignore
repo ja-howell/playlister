@@ -1,0 +1,5 @@
+# Secret files - DO NOT COMMIT
+secrets/
+*.key
+*.pem
+api-key.txt

@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: playlister-ui
+  namespace: playlister
+spec:
+  replicas: 1  # Reduced to 1 for ReadWriteOnce storage
+  selector:
+    matchLabels:
+      app: playlister-ui
+  template:
+    metadata:
+      labels:
+        app: playlister-ui
+    spec:
+      # Add node affinity to ensure pods land on same node as PVC
+      affinity:
+        podAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values: ["playlister-ui"]
+            topologyKey: kubernetes.io/hostname
+      containers:
+      - name: ui
+        image: your-registry/playlister-ui:latest  # Replace with your UI image
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: data
+          mountPath: /app/data
+          readOnly: false  # UI needs write access to delete items
+        env:
+        - name: DATA_PATH
+          value: "/app/data"
+        # Add file locking for UI operations to avoid race conditions
+        # command: ["/bin/sh", "-c"]
+        # args:
+        # - |
+        #   exec 200>/app/data/.ui.lock
+        #   flock -w 10 200  # Wait up to 10s for lock
+        #   your-ui-start-command
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: playlister-data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: playlister-ui-service
+  namespace: playlister
+spec:
+  selector:
+    app: playlister-ui
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: LoadBalancer  # Or ClusterIP if using an ingress
