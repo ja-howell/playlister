@@ -16,7 +16,7 @@ spec:
           restartPolicy: OnFailure
           containers:
           - name: runner
-            image: your-registry/playlister-downloader:latest  # Replace with your actual image
+            image: ianhowell.azurecr.io/playlister-downloader:latest
             imagePullPolicy: IfNotPresent
             command: ["/bin/sh", "-c"]
             args:
