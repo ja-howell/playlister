@@ -13,6 +13,8 @@ spec:
       labels:
         app: playlister-ui
     spec:
+      nodeSelector:
+        node-role.kubernetes.io/worker: "true"
       # Add node affinity to ensure pods land on same node as PVC
       affinity:
         podAffinity:

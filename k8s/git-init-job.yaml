@@ -7,6 +7,8 @@ spec:
   template:
     spec:
       restartPolicy: OnFailure
+      nodeSelector:
+        node-role.kubernetes.io/worker: "true"
       containers:
       - name: git-init
         image: alpine/git:latest
