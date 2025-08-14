@@ -57,16 +57,6 @@ spec:
                 exit 0
               fi
 
-              # Pull latest before writing
-              git remote set-url origin "$GIT_URL" || true
-              git fetch origin main || true
-              if git ls-remote --exit-code origin main >/dev/null 2>&1; then
-                git checkout -B main
-                git reset --hard origin/main
-              else
-                git checkout -B main
-              fi
-
               # Run downloader (writes db.json and updates config.json in /downloader/mnt)
               cd /downloader
               ./downloader
@@ -78,9 +68,7 @@ spec:
                 git commit -m "Data update: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
                 # Simple push with one retry in case of race with external writer
                 if ! git push origin main; then
-                  echo "Push failed; attempting one-time rebase-and-push"
-                  git fetch origin main
-                  git pull --rebase origin main || true
+                  echo "Push failed; reattempting"
                   git push origin main
                 fi
               else
