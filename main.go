@@ -13,24 +13,38 @@ import (
 	"github.com/ja-howell/playlister/videoclient"
 )
 
-const apiKeyFilepath = "API_KEY"
-const databasePath = "./mnt/db.json"
-const configPath = "./mnt/config.json"
-
 type Client interface {
 	GetResponse(nextPageToken videoclient.PageToken) (videoclient.Response, error)
 	GetVideoLength(videoId string) (string, error)
 }
 
+// Helper function to get environment variable with default
+func getEnv(key, defaultValue string) string {
+	if value := os.Getenv(key); value != "" {
+		return value
+	}
+	return defaultValue
+}
+
 func main() {
-	err := run()
+	// Get configuration from environment variables with defaults
+	dataDir := getEnv("DATA_DIR", "/data")
+	dbFilename := getEnv("DATABASE_FILENAME", "db.json")
+	configFilename := getEnv("CONFIG_FILENAME", "config.json")
+	apiKeyFilename := getEnv("API_KEY_FILENAME", "API_KEY")
+
+	databasePath := fmt.Sprintf("%s/%s", dataDir, dbFilename)
+	configPath := fmt.Sprintf("%s/%s", dataDir, configFilename)
+	apiKeyFilepath := apiKeyFilename // Keep as is for backward compatibility
+
+	err := run(databasePath, configPath, apiKeyFilepath)
 	if err != nil {
 		log.Printf("ERROR: %v", err)
 		os.Exit(1)
 	}
 }
 
-func run() error {
+func run(databasePath, configPath, apiKeyFilepath string) error {
 	config, err := newConfig(configPath)
 	if err != nil {
 		return fmt.Errorf("failed to create config: %w", err)
@@ -38,7 +52,7 @@ func run() error {
 
 	apiKey := config.APIKey
 	if apiKey == "" {
-		apiKey, err = getAPIKey()
+		apiKey, err = getAPIKey(apiKeyFilepath)
 		if err != nil {
 			return fmt.Errorf("failed to get API Key: %w", err)
 		}
@@ -78,7 +92,7 @@ func run() error {
 	return nil
 }
 
-func getAPIKey() (string, error) {
+func getAPIKey(apiKeyFilepath string) (string, error) {
 	f, err := os.Open(apiKeyFilepath)
 	if err != nil {
 		return "", fmt.Errorf("failed to open API Key file: %w", err)
